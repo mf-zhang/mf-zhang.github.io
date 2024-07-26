@@ -12,7 +12,7 @@ title                    : "Mingfang Zhang's Homepage"
 title_separator          : "-"
 name                     : &name "Mingfang Zhang"
 description              : &description "Phd Student at UTokyo"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://mingfang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mf-zhang/mingfang.github.io"
 
