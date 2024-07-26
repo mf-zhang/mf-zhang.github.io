@@ -12,8 +12,8 @@ I'm Mingfang Zhang (张铭方), a PhD student at the University of Tokyo, superv
 My research interests lie in computer vision and first-person perspective multimodal human activity understanding.
 
 ### 🎓 Education
-* Ph.D. in Information Studies @ The University of Tokyo (2026.3 expected)
-* M.Sc. in Information Studies @ The University of Tokyo (2023.3)
+* Ph.D. in Information Science @ The University of Tokyo (2026.3 expected)
+* M.Sc. in Information Science @ The University of Tokyo (2023.3)
 * B.Sc. in Computer Science @ Nanjing University (2020.7)
 
 ### 💼 Research Intern Experience
