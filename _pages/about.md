@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/), expecting to graduate in March 2026. Previously, I received my Master degree from the Univerisity of Tokyo in 2023 and my BSc degree from Nanjing University in 2020.
+I'm Mingfang Zhang (张铭方). I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). My research interests lie in computer vision and first-person perspective multimodal human activity understanding.
 
-My research interests lie in human computer interaction, computer vision, and AR/MR. Currently my research mainly focuses on egocentric vision and hand-related tasks. Previously, I was studying gaze estimation during my master program.
+{% include_relative includes/education.md %}
+
+{% include_relative includes/experience.md %}
+
+{% include_relative includes/pub.md %}
