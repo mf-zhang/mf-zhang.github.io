@@ -30,8 +30,7 @@ My research interests lie in computer vision and first-person perspective multim
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
-        <p><b>Mingfang Zhang</b>, Yifei Huang, Ruicong Liu, Yoichi Sato</p>
-        <p>European Conference on Computer Vision (ECCV), 2024 <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a></p>
+        <p><b>Mingfang Zhang</b>, Yifei Huang, Ruicong Liu, Yoichi Sato <br> European Conference on Computer Vision (ECCV), 2024 <br> <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a></p>
     </div>
 </div>
 
@@ -41,8 +40,7 @@ My research interests lie in computer vision and first-person perspective multim
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
-        <p>Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author)</p>
-        <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a> <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a></p>
+        <p>Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author) <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <br> <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a> and <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a></p>
     </div>
 </div>
 
@@ -52,8 +50,7 @@ My research interests lie in computer vision and first-person perspective multim
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Single-to-Dual-View Adaptation for Egocentric 3D Hand Pose Estimation</h3>
-        <p>Ruicong Liu, Takehiko Ohkawa, <b>Mingfang Zhang</b>, Yoichi Sato</p>
-        <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a> <a href="https://github.com/ut-vision/S2DHand">Code</a></p>
+        <p>Ruicong Liu, Takehiko Ohkawa, <b>Mingfang Zhang</b>, Yoichi Sato <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <br> <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a> and <a href="https://github.com/ut-vision/S2DHand">Code</a></p>
     </div>
 </div>
 
@@ -63,8 +60,7 @@ My research interests lie in computer vision and first-person perspective multim
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Structural Multiplane Image: Bridging Neural View Synthesis and 3D Reconstruction</h3>
-        <p><b>Mingfang Zhang</b>, Jinglu Wang, Xiao Li, Yifei Huang, Yoichi Sato, Yan Lu</p>
-        <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023 <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a> <a href="https://github.com/mf-zhang/Structural-MPI">Code</a></p>
+        <p><b>Mingfang Zhang</b>, Jinglu Wang, Xiao Li, Yifei Huang, Yoichi Sato, Yan Lu <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023 <br> <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a> and <a href="https://github.com/mf-zhang/Structural-MPI">Code</a></p>
     </div>
 </div>
 
@@ -74,8 +70,7 @@ My research interests lie in computer vision and first-person perspective multim
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>GazeOnce: Real-Time Multi-Person Gaze Estimation</h3>
-        <p><b>Mingfang Zhang</b>, Yunfei Liu, Feng Lu</p>
-        <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022 <a href="https://arxiv.org/abs/2204.09480">Paper</a> <a href="https://github.com/mf-zhang/GazeOnce">Code</a></p>
+        <p><b>Mingfang Zhang</b>, Yunfei Liu, Feng Lu <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022 <br> <a href="https://arxiv.org/abs/2204.09480">Paper</a> and <a href="https://github.com/mf-zhang/GazeOnce">Code</a></p>
     </div>
 </div>
 
@@ -85,8 +80,7 @@ My research interests lie in computer vision and first-person perspective multim
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Optical Flow in the Dark</h3>
-        <p><b>Mingfang Zhang</b>, Yinqiang Zheng, Feng Lu</p>
-        <p>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021 <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a> <a href="https://github.com/mf-zhang/Optical-Flow-in-the-Dark">Code</a></p>
+        <p><b>Mingfang Zhang</b>, Yinqiang Zheng, Feng Lu <br> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021 <br> <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a> and <a href="https://github.com/mf-zhang/Optical-Flow-in-the-Dark">Code</a></p>
     </div>
 </div>
 
