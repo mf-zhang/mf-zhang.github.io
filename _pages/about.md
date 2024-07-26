@@ -43,6 +43,18 @@ My research interests lie in computer vision and first-person perspective multim
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
         <p>Yifei Huang* , Guo Chen*, Jilan Xu*, Mingfang Zhang*, Lijin Yang, Baoqi Pei Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author)</p>
+        <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a> <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a></p>
+        <p></p>
+    </div>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
+        <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024" style="width: 100%; max-width: 300px;"/>
+    </div>
+    <div style="flex: 1 1 300px; margin-left: 20px;">
+        <h3>EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
+        <p>Yifei Huang* , Guo Chen*, Jilan Xu*, Mingfang Zhang*, Lijin Yang, Baoqi Pei Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author)</p>
         <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
         <p><a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a></p>
     </div>
