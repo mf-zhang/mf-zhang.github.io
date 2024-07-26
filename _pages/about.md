@@ -47,3 +47,15 @@ My research interests lie in computer vision and first-person perspective multim
         <p><a href="https://path/to/paper">Paper</a></p>
     </div>
 </div>
+
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
+        <img src="../images/papers/tmp.png" alt="ECCV 2024" style="width: 100%; max-width: 300px;"/>
+    </div>
+    <div style="flex: 1 1 300px; margin-left: 20px;">
+        <h3>Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
+        <p><strong>Mingfang Zhang, Yifei Huang, Ruicong Liu, Yoichi Sato</strong></p>
+        <p><strong>European Conference on Computer Vision (ECCV), 2024</strong></p>
+        <p><a href="https://path/to/paper">Paper</a></p>
+    </div>
+</div>
