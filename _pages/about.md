@@ -24,38 +24,26 @@ My research interests lie in computer vision and first-person perspective multim
 
 ### 📝 Publications
 
-<div style="display: flex; align-items: center;">
-    <div>
-        <img src="../images/papers/tmp.png" alt="ECCV 2024" style="max-width: 300px;"/>
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
+        <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024" style="width: 100%; max-width: 300px;"/>
     </div>
-    <div style="margin-left: 20px;">
+    <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
-        <p><strong>Mingfang Zhang, Yifei Huang, Ruicong Liu, Yoichi Sato</strong></p>
-        <p><strong>European Conference on Computer Vision (ECCV), 2024</strong></p>
-        <p><a href="https://path/to/paper">Paper</a></p>
-    </div>
-</div>
-
-<div style="display: flex; align-items: center;">
-    <div>
-        <img src="../images/papers/tmp.png" alt="ECCV 2024" style="max-width: 300px;"/>
-    </div>
-    <div style="margin-left: 20px;">
-        <h3>Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
-        <p><strong>Mingfang Zhang, Yifei Huang, Ruicong Liu, Yoichi Sato</strong></p>
-        <p><strong>European Conference on Computer Vision (ECCV), 2024</strong></p>
-        <p><a href="https://path/to/paper">Paper</a></p>
+        <p>Mingfang Zhang, Yifei Huang, Ruicong Liu, Yoichi Sato</p>
+        <p>European Conference on Computer Vision (ECCV), 2024</p>
+        <p><a href="http://www.arxiv.org/pdf/2407.06628">Paper</a></p>
     </div>
 </div>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
-        <img src="../images/papers/tmp.png" alt="ECCV 2024" style="width: 100%; max-width: 300px;"/>
+        <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024" style="width: 100%; max-width: 300px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
-        <h3>Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
-        <p><strong>Mingfang Zhang, Yifei Huang, Ruicong Liu, Yoichi Sato</strong></p>
-        <p><strong>European Conference on Computer Vision (ECCV), 2024</strong></p>
-        <p><a href="https://path/to/paper">Paper</a></p>
+        <h3>EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
+        <p>Yifei Huang* , Guo Chen*, Jilan Xu*, Mingfang Zhang*, Lijin Yang, Baoqi Pei Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author)</p>
+        <p>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
+        <p><a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a></p>
     </div>
 </div>
