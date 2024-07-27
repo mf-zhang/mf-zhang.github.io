@@ -34,15 +34,19 @@ My research interests lie in computer vision and multimodal human activity under
     </div>
 </div>
 
+---
+
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
         <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024" style="width: 100%; max-width: 300px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
-        <p>Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author) <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <br> <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a> and <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a></p>
+        <p>Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei, Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author) <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <br> <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a> and <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a></p>
     </div>
 </div>
+
+---
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
@@ -54,6 +58,8 @@ My research interests lie in computer vision and multimodal human activity under
     </div>
 </div>
 
+---
+
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
         <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023" style="width: 100%; max-width: 300px;"/>
@@ -63,6 +69,8 @@ My research interests lie in computer vision and multimodal human activity under
         <p><b>Mingfang Zhang</b>, Jinglu Wang, Xiao Li, Yifei Huang, Yoichi Sato, Yan Lu <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023 <br> <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a> and <a href="https://github.com/mf-zhang/Structural-MPI">Code</a></p>
     </div>
 </div>
+
+---
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
@@ -74,6 +82,8 @@ My research interests lie in computer vision and multimodal human activity under
     </div>
 </div>
 
+---
+
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
         <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021" style="width: 100%; max-width: 300px;"/>
@@ -83,6 +93,8 @@ My research interests lie in computer vision and multimodal human activity under
         <p><b>Mingfang Zhang</b>, Yinqiang Zheng, Feng Lu <br> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021 <br> <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a> and <a href="https://github.com/mf-zhang/Optical-Flow-in-the-Dark">Code</a></p>
     </div>
 </div>
+
+---
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
