@@ -16,13 +16,17 @@ My research interests lie in computer vision and multimodal human activity under
 * M.Sc. in Information Science @ The University of Tokyo (2023.3)
 * B.Sc. in Computer Science @ Nanjing University (2020.7)
 
-## 💼 Research Intern Experience
+## 🔬 Research Intern Experience
 * Activity Understanding Team at CyberAgent AI Lab, mentored by [Ryo Yonetani](https://yonetaniryo.github.io) (2024)
 * OpenGVLab at Shanghai AI Laboratory, mentored by [Yifei Huang](https://hyf015.github.io), [Yu Qiao](https://mmlab.siat.ac.cn/yuqiao) (2023)
 * Media Computing Group at Microsoft Research Asia, mentored by [Jinglu Wang](https://www.microsoft.com/en-us/research/people/jinglwa/), [Yan Lu](https://www.microsoft.com/en-us/research/people/yanlu/) (2022)
 * PCL, mentored by [Yinqiang Zheng](https://scholar.google.com/citations?user=JD-5DKcAAAAJ&hl=en), [Feng Lu](https://scholar.google.com/citations?user=9ggbm0QAAAAJ&hl=en) (2021)
 
-## 📝 Publications
+## 🛎️ Services
+* Reviewer of CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, BMVC, TCSVT
+* Contracted photographer of Visual China Group ([500px](https://500px.com.cn/mingfang))
+
+## 📄 Publications
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
@@ -107,9 +111,7 @@ My research interests lie in computer vision and multimodal human activity under
     </div>
 </div>
 
-## Services
-* Reviewer of CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, BMVC, TCSVT
-* Contracted photographer of Visual China Group ([500px](https://500px.com.cn/mingfang))
+
 
 
 <!-- Google tag (gtag.js) -->
