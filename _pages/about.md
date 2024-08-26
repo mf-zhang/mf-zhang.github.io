@@ -107,6 +107,11 @@ My research interests lie in computer vision and multimodal human activity under
     </div>
 </div>
 
+## Services
+* Reviewer of CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, BMVC, TCSVT
+* Contracted photographer of Visual China Group
+
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5PY7PJR9Q"></script>
 <script>
