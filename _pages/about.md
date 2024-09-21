@@ -34,7 +34,7 @@ My research interests lie in computer vision and multimodal human activity under
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
-        <p><b>Mingfang Zhang</b>, Yifei Huang, Ruicong Liu, Yoichi Sato <br> European Conference on Computer Vision (ECCV), 2024 <br> <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a></p>
+        <p><b>Mingfang Zhang</b>, Yifei Huang, Ruicong Liu, Yoichi Sato <br> European Conference on Computer Vision (ECCV), 2024 <br> <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a> and <a href="https://github.com/mf-zhang/IMU-Video-MAE">Code</a></p>
     </div>
 </div>
 
