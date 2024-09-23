@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Mingfang Zhang"
 title_separator          : "-"
-name                     : 
+name                     : &name "Mingfang Zhang (张铭方)"
 description              : &description "Phd Student at UTokyo"
 url                      : https://mf-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
