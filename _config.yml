@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Mingfang Zhang"
 title_separator          : "-"
-name                     : &name "Mingfang Zhang (张铭方)"
+name                     : &name "Mingfang Zhang"
 description              : &description "Phd Student at UTokyo"
 url                      : https://mf-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "mf-zhang/mf-zhang.github.io"
 author:
   # Biographic information
   avatar           : "zmf-ai.jpg"
-  name             : "Mingfang Zhang"
+  name             : "Mingfang Zhang (张铭方)"
   pronouns         : # example: "she/her"  
   bio              : "PhD student at UTokyo"
   location         : "Tokyo, Japan"
