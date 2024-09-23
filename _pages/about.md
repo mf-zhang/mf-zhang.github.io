@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm Mingfang Zhang (张铭方), a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/).
-
-My research interests lie in computer vision and multimodal human activity understanding in the first-person perspective.
+I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). My research interests lie in computer vision and multimodal human activity understanding in the first-person perspective.
 
 ## 🎓 Education
 * Ph.D. in Information Science @ The University of Tokyo (2026.3 expected)
