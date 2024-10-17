@@ -15,7 +15,7 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 * B.Sc. in Computer Science @ Nanjing University (2020.7)
 
 ## 🔬 Research Experience
-* Intern at CyberAgent AI Lab, Activity Understanding Team, 2024
+* Intern at <img src="/images/ca.png" class="inline-badge"/> CyberAgent AI Lab, Activity Understanding Team, 2024
 * Intern at Shanghai AI Laboratory, OpenGVLab, 2023
 * Intern at Microsoft Research Asia, Media Computing Group, 2022
 * Intern at PCL Shenzhen, Virtual Reality Lab, 2021
