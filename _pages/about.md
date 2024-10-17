@@ -11,15 +11,15 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 
 ## Education
 <ul style="list-style-type:none;">
-<li><img src="/images/logo_ut.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp; Ph.D. in Information Science at the University of Tokyo (2026.3 expected) <br>
-<li><img src="/images/logo_ut.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp; M.Sc. in Information Science at the University of Tokyo (2023.3) <br>
-<li><img src="/images/logo_nju.png" style="width:0.75em; height:1em; vertical-align:baseline;"> &nbsp; B.Sc. in Computer Science at Nanjing University (2020.7)
+<li><img src="/images/logo_ut.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp; Ph.D. in Information Science at the University of Tokyo (2026.3 expected)</li>
+<li><img src="/images/logo_ut.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp; M.Sc. in Information Science at the University of Tokyo (2023.3) </li>
+<li><img src="/images/logo_nju.png" style="width:0.75em; height:1em; vertical-align:baseline;"> &nbsp; B.Sc. in Computer Science at Nanjing University (2020.7) </li>
 </ul>
 
 ## Research Experience
 <ul style="list-style-type:none;">
-<li><img src="/images/logo_ca.png" style="width:1.5em; height:1em; vertical-align:baseline;"> &nbsp; Intern at CyberAgent AI Lab, Activity Understanding Team, 2024 <br>
-<li><img src="/images/logo_msra.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp;&nbsp; Intern at Microsoft Research Asia, Media Computing Group, 2022
+<li><img src="/images/logo_ca.png" style="width:1.5em; height:1em; vertical-align:baseline;"> &nbsp; Intern at CyberAgent AI Lab, Activity Understanding Team, 2024 </li>
+<li><img src="/images/logo_msra.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp;&nbsp; Intern at Microsoft Research Asia, Media Computing Group, 2022 </li>
 </ul>
 
 ## Services and Awards
