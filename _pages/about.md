@@ -9,18 +9,19 @@ redirect_from:
 
 I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). My research interests lie in computer vision and multimodal human activity understanding in the first-person perspective.
 
-## 🎓 Education
-* Ph.D. in Information Science at the University of Tokyo (2026.3 expected)
-* M.Sc. in Information Science at the University of Tokyo (2023.3)
-* B.Sc. in Computer Science at Nanjing University (2020.7)
+## Education
+<img src="/images/logo_ut.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp; Ph.D. in Information Science at the University of Tokyo (2026.3 expected)
 
-## 🔬 Research Experience
-* Intern at <img src="/images/logo_ca.png" style="width:1.5em; height:1em; vertical-align:baseline;"> CyberAgent AI Lab, Activity Understanding Team, 2024
-* Intern at Shanghai AI Laboratory, OpenGVLab, 2023
-* Intern at <img src="/images/logo_msra.png" style="width:1em; height:1em; vertical-align:baseline;"> Microsoft Research Asia, Media Computing Group, 2022
-* Intern at PCL Shenzhen, Virtual Reality Lab, 2021
+<img src="/images/logo_ut.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp; M.Sc. in Information Science at the University of Tokyo (2023.3)
 
-## 🎖️ Services and Awards
+<img src="/images/logo_nju.png" style="width:0.75em; height:1em; vertical-align:baseline;"> &nbsp; B.Sc. in Computer Science at Nanjing University (2020.7)
+
+## Research Experience
+<img src="/images/logo_ca.png" style="width:1.5em; height:1em; vertical-align:baseline;"> &nbsp; Intern at CyberAgent AI Lab, Activity Understanding Team, 2024
+
+<img src="/images/logo_msra.png" style="width:1em; height:1em; vertical-align:baseline;"> &nbsp;&nbsp; Intern at Microsoft Research Asia, Media Computing Group, 2022
+
+## Services and Awards
 * JSPS Research Fellowship for Young Scientists DC2
 * Reviewer of CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, BMVC, TCSVT
 * 1st place award of EgoTracks challenge in Ego4D at CVPR 2023
@@ -28,7 +29,7 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 * Contracted photographer of Visual China Group
 
 
-## 📄 Publications
+## Publications
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
