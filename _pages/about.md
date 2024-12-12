@@ -22,8 +22,7 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 
 ## 🎖️ Services and Awards
 * JSPS Research Fellowship for Young Scientists DC2
-* Reviewer of CVPR, ICCV, ECCV, NeurIPS, AAAI, ICLR, BMVC, TCSVT
-* 1st place award of EgoTracks challenge in Ego4D at CVPR 2023
+* Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, BMVC
 * “Stars of Tomorrow” award by Microsoft Research Asia
 * Contracted photographer of Visual China Group
 
