@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). My research interests lie in computer vision and multimodal human activity understanding in the first-person perspective.
+I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). My research interests lie in computer vision and egocentric activity understanding, leveraging diverse data modalities including video, language, IMU, point cloud, human gaze, and hand pose.
 
 ## 🎓 Education
 * Ph.D. in Information Science @ The University of Tokyo (2026.3 expected)
@@ -28,6 +28,18 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 
 
 ## 📄 Publications
+
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
+        <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" style="width: 100%; max-width: 300px;"/>
+    </div>
+    <div style="flex: 1 1 300px; margin-left: 20px;">
+        <h3>Pre-Training for 3D Hand Pose Estimation with Contrastive Learning on Large-Scale Hand Images in the Wild</h3>
+        <p>Nie Lin, Takehiko Ohkawa, <b>Mingfang Zhang</b>, Yifei Huang, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato <br> International Conference on Learning Representations (ICLR), 2025 <br> <a href="https://www.arxiv.org/abs/2409.09714">Paper</a></p>
+    </div>
+</div>
+
+---
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
