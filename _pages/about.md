@@ -31,11 +31,23 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
+        <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025" style="width: 100%; max-width: 300px;"/>
+    </div>
+    <div style="flex: 1 1 300px; margin-left: 20px;">
+        <h3>An Egocentric Vision-Language Model based Portable Real-time Smart Assistant</h3>
+        <p>Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, <b>Mingfang Zhang</b>, Lijin Yang, ..., Limin Wang <br> Arxiv preprint, 2025 <br> <a href="https://arxiv.org/pdf/2503.04250">Paper</a> and <a href="https://github.com/OpenGVLab/vinci">Code</a></p>
+    </div>
+</div>
+
+---
+
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" style="width: 100%; max-width: 300px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training</h3>
-        <p>Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato <br> International Conference on Learning Representations (ICLR), 2025 <br> <a href="https://arxiv.org/pdf/2502.15251">Paper</a></p>
+        <p>Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato <br> International Conference on Learning Representations (ICLR), 2025 <br> <a href="https://arxiv.org/pdf/2502.15251">Paper</a></p> and <a href="https://github.com/ut-vision/SiMHand">Code</a></p>
     </div>
 </div>
 
