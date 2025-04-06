@@ -34,8 +34,8 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" style="width: 100%; max-width: 300px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
-        <h3>Pre-Training for 3D Hand Pose Estimation with Contrastive Learning on Large-Scale Hand Images in the Wild</h3>
-        <p>Nie Lin, Takehiko Ohkawa, <b>Mingfang Zhang</b>, Yifei Huang, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato <br> International Conference on Learning Representations (ICLR), 2025 <br> <a href="https://www.arxiv.org/abs/2409.09714">Paper</a></p>
+        <h3>SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training</h3>
+        <p>Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato <br> International Conference on Learning Representations (ICLR), 2025 <br> <a href="https://arxiv.org/pdf/2502.15251">Paper</a></p>
     </div>
 </div>
 
