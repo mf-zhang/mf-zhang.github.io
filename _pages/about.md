@@ -71,7 +71,7 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
-        <p>Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei, Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao (* co-first author) <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <br> <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a> and <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a></p>
+        <p>(* co-first author) Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei, Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao <br> IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <br> <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a> and <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a></p>
     </div>
 </div>
 
@@ -131,7 +131,7 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>Optical Flow in the Dark</h3>
-        <p>Yinqiang Zheng*, <b>Mingfang Zhang</b>*, Feng Lu (*co-first author) <br> 
+        <p>(*co-first author) Yinqiang Zheng*, <b>Mingfang Zhang</b>*, Feng Lu <br> 
         IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020  <br>  <a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Optical_Flow_in_the_Dark_CVPR_2020_paper.pdf">Paper</a> and <a href="https://github.com/mf-zhang/Optical-Flow-in-the-Dark">Code</a></p>
     </div>
 </div>
