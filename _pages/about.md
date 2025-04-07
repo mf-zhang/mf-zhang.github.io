@@ -47,7 +47,7 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
         <h3>SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training</h3>
-        <p>Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato <br> International Conference on Learning Representations (ICLR), 2025 <br> <a href="https://arxiv.org/pdf/2502.15251">Paper</a></p> and <a href="https://github.com/ut-vision/SiMHand">Code</a></p>
+        <p>Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato <br> International Conference on Learning Representations (ICLR), 2025 <br> <a href="https://arxiv.org/pdf/2502.15251">Paper</a> and <a href="https://github.com/ut-vision/SiMHand">Code</a></p>
     </div>
 </div>
 
