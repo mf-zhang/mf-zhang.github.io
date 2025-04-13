@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). My research interests lie in computer vision and egocentric activity understanding, leveraging diverse data modalities including video, language, IMU, point cloud, human gaze, and hand pose.
+I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). I focus on computer vision and human activity understanding, specifically involving video and multi-view understanding, vision-language multimodal models, and human body perception.
 
 ## 🎓 Education
 * Ph.D. in Information Science @ The University of Tokyo (2026.3 expected)
@@ -22,7 +22,8 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 
 ## 🎖️ Services and Awards
 * JSPS Research Fellowship for Young Scientists DC2
-* Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, BMVC
+* Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ACMMM, BMVC
+* UTokyo-IIS Research Collaboration Initiative Award
 * “Stars of Tomorrow” award by Microsoft Research Asia
 * Contracted photographer of Visual China Group
 
