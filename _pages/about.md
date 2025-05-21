@@ -44,6 +44,18 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
+        <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025" style="width: 100%; max-width: 300px;"/>
+    </div>
+    <div style="flex: 1 1 300px; margin-left: 20px;">
+        <h3>Egocentric Action-aware Inertial Localization in Point Clouds</h3>
+        <p><b>Mingfang Zhang</b>, Ryo Yonetani, Yifei Huang, Liangyang Ouyang, Ruicong Liu, Yoichi Sato <br> Arxiv preprint, 2025 <br> <a href="https://arxiv.org/abs/2505.14346">Paper</a> and <a href="https://github.com/mf-zhang/Ego-Inertial-Localization">Demo and Code</a></p>
+    </div>
+</div>
+
+---
+
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" style="width: 100%; max-width: 300px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
