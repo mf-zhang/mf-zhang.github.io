@@ -228,8 +228,12 @@ redirect_from:
         flex-direction: column;
     }
     
-    .team-name {
+    .experience-content {
         margin-left: 28px;
+    }
+    
+    .team-name {
+        margin-top: 4px;
     }
 }
 
