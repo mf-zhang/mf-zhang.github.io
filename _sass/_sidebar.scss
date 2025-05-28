@@ -150,6 +150,7 @@
 
 .author__bio {
   margin: 0;
+  margin-bottom: 10px;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -159,18 +160,11 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
   cursor: pointer;
-
-  li:last-child {
-    a {
-      margin-bottom: 0;
-    }
-  }
+  margin-top: 10px;
 
   @include breakpoint($large) {
     display: block;
@@ -178,6 +172,17 @@
 
   button {
     margin-bottom: 0;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    font-size: $type-size-6;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
 
     @include breakpoint($large) {
       display: none;
@@ -198,6 +203,7 @@
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
+  min-width: 200px;
 
   @include breakpoint($large) {
     display: block;
@@ -207,6 +213,7 @@
     border: 0;
     background: transparent;
     box-shadow: none;
+    min-width: auto;
   }
 
   &:before {
