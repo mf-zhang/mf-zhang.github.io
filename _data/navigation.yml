@@ -1,7 +1,7 @@
 # main links links
 main:
   - title: "Publications"
-    url: https://scholar.google.com/citations?user=KnQO5GcAAAAJ&hl=en
+    url: /publications/
 
   - title: "CV"
     url: /files/Mingfang_Zhang_CV_202505.pdf    
