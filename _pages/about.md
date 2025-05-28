@@ -782,42 +782,44 @@ redirect_from:
 </script>
 
 <script>
-// Simple filter implementation
-document.addEventListener('DOMContentLoaded', function() {
-    // Get all elements
+window.addEventListener('load', function() {
     var filters = document.getElementsByClassName('tag-filter');
     var cards = document.getElementsByClassName('publication-card');
-    
-    // Add click handlers to filters
+
+    if (filters.length === 0 || cards.length === 0) {
+        console.error("Filter elements or publication cards not found on window.load.");
+        return;
+    }
+
     for (var i = 0; i < filters.length; i++) {
-        filters[i].onclick = function() {
-            // Update active state
+        filters[i].addEventListener('click', function() {
+            // Deactivate all filters
             for (var j = 0; j < filters.length; j++) {
                 filters[j].classList.remove('active');
             }
+            // Activate clicked filter
             this.classList.add('active');
-            
-            // Get selected tag
-            var tag = this.getAttribute('data-tag');
-            
+
+            var selectedTag = this.getAttribute('data-tag');
+
             // Filter cards
             for (var k = 0; k < cards.length; k++) {
                 var card = cards[k];
-                if (tag === 'all') {
+                if (selectedTag === 'all') {
                     card.style.display = 'flex';
                 } else {
                     var cardTags = card.getElementsByClassName('publication-tag');
-                    var hasTag = false;
+                    var matches = false;
                     for (var l = 0; l < cardTags.length; l++) {
-                        if (cardTags[l].textContent === tag) {
-                            hasTag = true;
+                        if (cardTags[l].textContent.trim() === selectedTag) {
+                            matches = true;
                             break;
                         }
                     }
-                    card.style.display = hasTag ? 'flex' : 'none';
+                    card.style.display = matches ? 'flex' : 'none';
                 }
             }
-        };
+        });
     }
 });
 </script>
