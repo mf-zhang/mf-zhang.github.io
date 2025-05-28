@@ -387,7 +387,6 @@ redirect_from:
 
 <div class="awards-card">
     <div class="award-item">
-        <span class="award-icon">•</span>
         <span>Please visit my <a href="/publications/" style="color: #3498db; text-decoration: none; font-weight: 500;">publications page</a> for a complete list of my research works.</span>
     </div>
 </div>
