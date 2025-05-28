@@ -178,11 +178,6 @@
     color: $gray;
     border: 1px solid $light-gray;
     font-size: $type-size-6;
-    transition: all 0.2s ease;
-
-    &:hover {
-      background-color: $light-gray;
-    }
 
     @include breakpoint($large) {
       display: none;

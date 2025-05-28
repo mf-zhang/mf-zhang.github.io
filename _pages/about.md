@@ -571,58 +571,6 @@ redirect_from:
     <div class="tag-filter" data-tag="3D Vision">3D Vision</div>
 </div>
 
-<script>
-// Initialize filter functionality
-function initFilters() {
-    const tagFilters = document.querySelectorAll('.tag-filter');
-    const publicationCards = document.querySelectorAll('.publication-card');
-
-    function filterCards(selectedTag) {
-        publicationCards.forEach(card => {
-            if (selectedTag === 'all') {
-                card.style.display = 'flex';
-                setTimeout(() => {
-                    card.classList.remove('hidden');
-                }, 10);
-            } else {
-                const cardTags = Array.from(card.querySelectorAll('.publication-tag'))
-                    .map(tag => tag.textContent);
-                
-                if (cardTags.includes(selectedTag)) {
-                    card.style.display = 'flex';
-                    setTimeout(() => {
-                        card.classList.remove('hidden');
-                    }, 10);
-                } else {
-                    card.classList.add('hidden');
-                    setTimeout(() => {
-                        card.style.display = 'none';
-                    }, 300);
-                }
-            }
-        });
-    }
-
-    tagFilters.forEach(filter => {
-        filter.addEventListener('click', function() {
-            tagFilters.forEach(f => f.classList.remove('active'));
-            this.classList.add('active');
-            filterCards(this.getAttribute('data-tag'));
-        });
-    });
-}
-
-// Try multiple ways to ensure the script runs
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initFilters);
-} else {
-    initFilters();
-}
-
-// Backup initialization
-window.addEventListener('load', initFilters);
-</script>
-
 <div class="publication-card">
     <div class="publication-image">
         <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025"/>
@@ -823,9 +771,6 @@ window.addEventListener('load', initFilters);
     </div>
 </div>
 
-
-
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H5PY7PJR9Q"></script>
 <script>
@@ -834,4 +779,45 @@ window.addEventListener('load', initFilters);
   gtag('js', new Date());
 
   gtag('config', 'G-H5PY7PJR9Q');
+</script>
+
+<script>
+// Simple filter implementation
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all elements
+    var filters = document.getElementsByClassName('tag-filter');
+    var cards = document.getElementsByClassName('publication-card');
+    
+    // Add click handlers to filters
+    for (var i = 0; i < filters.length; i++) {
+        filters[i].onclick = function() {
+            // Update active state
+            for (var j = 0; j < filters.length; j++) {
+                filters[j].classList.remove('active');
+            }
+            this.classList.add('active');
+            
+            // Get selected tag
+            var tag = this.getAttribute('data-tag');
+            
+            // Filter cards
+            for (var k = 0; k < cards.length; k++) {
+                var card = cards[k];
+                if (tag === 'all') {
+                    card.style.display = 'flex';
+                } else {
+                    var cardTags = card.getElementsByClassName('publication-tag');
+                    var hasTag = false;
+                    for (var l = 0; l < cardTags.length; l++) {
+                        if (cardTags[l].textContent === tag) {
+                            hasTag = true;
+                            break;
+                        }
+                    }
+                    card.style.display = hasTag ? 'flex' : 'none';
+                }
+            }
+        };
+    }
+});
 </script>
