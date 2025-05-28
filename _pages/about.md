@@ -106,12 +106,12 @@ redirect_from:
 }
 
 .section-title {
-    font-size: 1.8em;
+    font-size: 1.5em;
     font-weight: 600;
     color: var(--global-text-color);
-    margin: 1.5em 0 0.8em 0;
-    padding-bottom: 0.3em;
-    border-bottom: 2px solid var(--global-theme-color);
+    margin: 1.2em 0 0.3em 0;
+    padding-bottom: 0em;
+    border-bottom: 1px solid var(--global-theme-color);
     display: flex;
     align-items: center;
 }
@@ -119,11 +119,11 @@ redirect_from:
 .section-title::before {
     content: '';
     display: inline-block;
-    width: 4px;
-    height: 1.2em;
+    width: 3px;
+    height: 1em;
     background-color: var(--global-theme-color);
-    margin-right: 0.5em;
-    border-radius: 2px;
+    margin-right: 0.4em;
+    border-radius: 1.5px;
 }
 </style>
 
@@ -223,7 +223,7 @@ redirect_from:
 
 .award-item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 8px;
     color: #2c3e50;
     font-size: 0.95em;
@@ -238,6 +238,13 @@ redirect_from:
     color: #3498db;
     font-size: 1.2em;
     line-height: 1;
+}
+
+.award-date {
+    color: #7f8c8d;
+    font-size: 0.85em;
+    margin-left: auto;
+    padding-left: 12px;
 }
 </style>
 
@@ -281,6 +288,7 @@ redirect_from:
     <div class="award-item">
         <span class="award-icon">•</span>
         <span>JSPS Research Fellowship for Young Scientists DC2</span>
+        <span class="award-date">2025</span>
     </div>
     <div class="award-item">
         <span class="award-icon">•</span>
@@ -289,10 +297,12 @@ redirect_from:
     <div class="award-item">
         <span class="award-icon">•</span>
         <span>UTokyo-IIS Research Collaboration Initiative Award</span>
+        <span class="award-date">2024</span>
     </div>
     <div class="award-item">
         <span class="award-icon">•</span>
         <span>"Stars of Tomorrow" award by Microsoft Research Asia</span>
+        <span class="award-date">2023</span>
     </div>
     <div class="award-item">
         <span class="award-icon">•</span>
