@@ -179,7 +179,7 @@ redirect_from:
 .experience-item {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 8px;
     color: #2c3e50;
     font-size: 0.95em;
@@ -191,7 +191,8 @@ redirect_from:
 
 .experience-company {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .company-logo {
@@ -201,10 +202,35 @@ redirect_from:
     object-fit: contain;
 }
 
+.experience-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.company-name {
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+.team-name {
+    color: #7f8c8d;
+}
+
 .experience-date {
     color: #7f8c8d;
     font-size: 0.85em;
     margin-left: 12px;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .experience-company {
+        flex-direction: column;
+    }
+    
+    .team-name {
+        margin-left: 28px;
+    }
 }
 
 .awards-card {
@@ -254,28 +280,48 @@ redirect_from:
     <div class="experience-item">
         <div class="experience-company">
             <img src="../images/logo/logo_ca.png" alt="CyberAgent Logo" class="company-logo"/>
-            <span>Intern at <a href="https://research.cyberagent.ai/research/activity-understanding/" style="color: inherit; text-decoration: none;">CyberAgent AI Lab, Activity Understanding Team</a></span>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">CyberAgent AI Lab</span>
+                    <span class="team-name">Activity Understanding Team</span>
+                </div>
+            </div>
         </div>
         <span class="experience-date">2024</span>
     </div>
     <div class="experience-item">
         <div class="experience-company">
             <img src="../images/logo/logo_shai.png" alt="Shanghai AI Lab Logo" class="company-logo"/>
-            <span>Intern at <a href="https://github.com/opengvlab" style="color: inherit; text-decoration: none;">Shanghai AI Laboratory, OpenGVLab</a></span>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">Shanghai AI Laboratory</span>
+                    <span class="team-name">OpenGVLab</span>
+                </div>
+            </div>
         </div>
         <span class="experience-date">2023</span>
     </div>
     <div class="experience-item">
         <div class="experience-company">
             <img src="../images/logo/logo_msra.png" alt="Microsoft Research Asia Logo" class="company-logo"/>
-            <span>Intern at <a href="https://www.microsoft.com/en-us/research/group/media-computing-group/" style="color: inherit; text-decoration: none;">Microsoft Research Asia, Media Computing Group</a></span>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">Microsoft Research Asia</span>
+                    <span class="team-name">Media Computing Group</span>
+                </div>
+            </div>
         </div>
         <span class="experience-date">2022</span>
     </div>
     <div class="experience-item">
         <div class="experience-company">
             <img src="../images/logo/logo_pcl.png" alt="PCL Logo" class="company-logo"/>
-            <span>Intern at PCL Shenzhen, Virtual Reality Lab</span>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">PCL Shenzhen</span>
+                    <span class="team-name">Virtual Reality Lab</span>
+                </div>
+            </div>
         </div>
         <span class="experience-date">2021</span>
     </div>
