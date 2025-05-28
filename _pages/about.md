@@ -7,9 +7,45 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). I focus on computer vision and human activity understanding, specifically involving video and multi-view understanding, vision-language multimodal models, and human body perception.
+<style>
+.intro-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+}
 
-## 🎓 Education
+.intro-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.intro-text {
+    color: var(--global-text-color);
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin: 1.5em 0;
+    font-weight: 400;
+}
+
+.intro-text a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.intro-text a:hover {
+    color: var(--global-hover-color);
+    text-decoration: underline;
+}
+</style>
+
+<p class="intro-text">
+    I'm a PhD student at the University of Tokyo, supervised by Prof. <a href="https://sites.google.com/ut-vision.org/ysato/">Yoichi Sato</a>. I focus on computer vision and human activity understanding, specifically involving video and multi-view understanding, vision-language multimodal models, and human body perception.
+</p>
 
 <style>
 .education-card {
@@ -68,7 +104,30 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 .education-degree:last-child {
     margin-bottom: 0;
 }
+
+.section-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: var(--global-text-color);
+    margin: 1.5em 0 0.8em 0;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid var(--global-theme-color);
+    display: flex;
+    align-items: center;
+}
+
+.section-title::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 1.2em;
+    background-color: var(--global-theme-color);
+    margin-right: 0.5em;
+    border-radius: 2px;
+}
 </style>
+
+<div class="section-title">Education</div>
 
 <div class="education-card">
     <div class="education-icon">
@@ -100,7 +159,6 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
     </div>
 </div>
 
-## 🔬 Research Experience
 
 <style>
 .experience-card {
@@ -183,6 +241,8 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 }
 </style>
 
+<div class="section-title">Research Experience</div>
+
 <div class="experience-card">
     <div class="experience-item">
         <div class="experience-company">
@@ -214,7 +274,8 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
     </div>
 </div>
 
-## 🎖️ Services and Awards
+
+<div class="section-title">Services and Awards</div>
 
 <div class="awards-card">
     <div class="award-item">
@@ -238,8 +299,6 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
         <span>Contracted photographer of Visual China Group</span>
     </div>
 </div>
-
-## 📄 Publications
 
 <style>
 .publication-card {
@@ -302,6 +361,8 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
     text-decoration: underline;
 }
 </style>
+
+<div class="section-title">Publications</div>
 
 <div class="publication-card">
     <div class="publication-image">
