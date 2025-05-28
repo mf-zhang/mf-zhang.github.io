@@ -48,15 +48,34 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
+            <a href="{{ page.paperurl }}" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Paper</a>
+            <a href="{{ page.slidesurl }}" class="btn btn--primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
+          </p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
+            <a href="{{ page.paperurl }}" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Paper</a>
+            {% if page.codeurl %}
+            <a href="{{ page.codeurl }}" class="btn btn--primary"><i class="fab fa-github"></i> Code</a>
+            {% endif %}
+          </p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
+            <a href="{{ page.slidesurl }}" class="btn btn--primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
+          </p>
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+        {% elsif page.paperurl %}
+          <p style="font-size: smaller">
+            <a href="{{ page.paperurl }}" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Paper</a>
+            {% if page.codeurl %}
+            <a href="{{ page.codeurl }}" class="btn btn--primary"><i class="fab fa-github"></i> Code</a>
+            {% endif %}
+          </p>
         {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">
+            <a href="{{ page.slidesurl }}" class="btn btn--primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
+          </p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
