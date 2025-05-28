@@ -10,9 +10,95 @@ redirect_from:
 I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](https://sites.google.com/ut-vision.org/ysato/). I focus on computer vision and human activity understanding, specifically involving video and multi-view understanding, vision-language multimodal models, and human body perception.
 
 ## 🎓 Education
-* Ph.D. in Information Science @ The University of Tokyo (2026.3 expected)
-* M.Sc. in Information Science @ The University of Tokyo (2023.3)
-* B.Sc. in Computer Science @ Nanjing University (2020.7)
+
+<style>
+.education-card {
+    display: flex;
+    align-items: flex-start;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 8px 0;
+    padding: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.education-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.education-icon {
+    flex: 0 0 32px;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.education-icon img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.education-content {
+    flex: 1;
+}
+
+.education-school {
+    color: #34495e;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.education-degree {
+    color: #2c3e50;
+    margin-bottom: 4px;
+    font-size: 0.95em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education-date {
+    color: #7f8c8d;
+    font-size: 0.85em;
+    margin-left: 12px;
+}
+
+.education-degree:last-child {
+    margin-bottom: 0;
+}
+</style>
+
+<div class="education-card">
+    <div class="education-icon">
+        <img src="../images/logo/logo_ut.png" alt="University of Tokyo Logo"/>
+    </div>
+    <div class="education-content">
+        <div class="education-school">The University of Tokyo</div>
+        <div class="education-degree">
+            <span>Ph.D. in Information Science</span>
+            <span class="education-date">2026.3 (expected)</span>
+        </div>
+        <div class="education-degree">
+            <span>M.Sc. in Information Science</span>
+            <span class="education-date">2023.3</span>
+        </div>
+    </div>
+</div>
+
+<div class="education-card">
+    <div class="education-icon">
+        <img src="../images/logo/logo_nju.png" alt="Nanjing University Logo"/>
+    </div>
+    <div class="education-content">
+        <div class="education-school">Nanjing University</div>
+        <div class="education-degree">
+            <span>B.Sc. in Computer Science</span>
+            <span class="education-date">2020.7</span>
+        </div>
+    </div>
+</div>
 
 ## 🔬 Research Experience
 * Intern at CyberAgent AI Lab, Activity Understanding Team, 2024
