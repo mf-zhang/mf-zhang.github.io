@@ -183,6 +183,8 @@ redirect_from:
     margin-bottom: 8px;
     color: #2c3e50;
     font-size: 0.95em;
+    flex-wrap: wrap;
+    gap: 8px;
 }
 
 .experience-item:last-child {
@@ -193,6 +195,9 @@ redirect_from:
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
+    gap: 8px;
+    flex: 1;
+    min-width: 200px;
 }
 
 .company-logo {
@@ -200,20 +205,29 @@ redirect_from:
     height: 20px;
     margin-right: 8px;
     object-fit: contain;
+    flex-shrink: 0;
+    margin-top: 2px;
 }
 
 .experience-content {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    min-width: 150px;
 }
 
 .company-name {
     font-weight: 500;
     margin-right: 4px;
+    display: inline-block;
+    min-width: 120px;
+    line-height: 1.4;
 }
 
 .team-name {
     color: #7f8c8d;
+    display: inline-block;
+    line-height: 1.4;
 }
 
 .experience-date {
@@ -221,19 +235,39 @@ redirect_from:
     font-size: 0.85em;
     margin-left: 12px;
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 @media (max-width: 768px) {
+    .experience-item {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 4px;
+    }
+    
     .experience-company {
-        flex-direction: column;
+        width: auto;
+        align-items: center;
+        flex: 1;
     }
     
     .experience-content {
         margin-left: 28px;
+        width: auto;
+    }
+    
+    .company-name {
+        min-width: 100px;
     }
     
     .team-name {
         margin-top: 4px;
+        display: block;
+    }
+
+    .experience-date {
+        margin-left: 12px;
+        margin-top: 0;
     }
 }
 
@@ -316,18 +350,6 @@ redirect_from:
             </div>
         </div>
         <span class="experience-date">2022</span>
-    </div>
-    <div class="experience-item">
-        <div class="experience-company">
-            <img src="../images/logo/logo_pcl.png" alt="PCL Logo" class="company-logo"/>
-            <div class="experience-content">
-                <div>
-                    <span class="company-name">PCL Shenzhen</span>
-                    <span class="team-name">Virtual Reality Lab</span>
-                </div>
-            </div>
-        </div>
-        <span class="experience-date">2021</span>
     </div>
 </div>
 
