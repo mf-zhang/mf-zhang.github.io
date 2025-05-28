@@ -572,28 +572,43 @@ redirect_from:
 </div>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+// Wait for the page to be fully loaded
+window.addEventListener('load', function() {
+    // Get all filter buttons and publication cards
     const tagFilters = document.querySelectorAll('.tag-filter');
     const publicationCards = document.querySelectorAll('.publication-card');
 
+    // Add click event listener to each filter
     tagFilters.forEach(filter => {
         filter.addEventListener('click', function() {
-            // Update active state of filters
+            // Remove active class from all filters
             tagFilters.forEach(f => f.classList.remove('active'));
+            // Add active class to clicked filter
             this.classList.add('active');
 
             const selectedTag = this.getAttribute('data-tag');
 
+            // Filter the publication cards
             publicationCards.forEach(card => {
                 if (selectedTag === 'all') {
-                    card.classList.remove('hidden');
+                    card.style.display = 'flex';
+                    setTimeout(() => {
+                        card.classList.remove('hidden');
+                    }, 10);
                 } else {
                     const cardTags = Array.from(card.querySelectorAll('.publication-tag'))
                         .map(tag => tag.textContent);
+                    
                     if (cardTags.includes(selectedTag)) {
-                        card.classList.remove('hidden');
+                        card.style.display = 'flex';
+                        setTimeout(() => {
+                            card.classList.remove('hidden');
+                        }, 10);
                     } else {
                         card.classList.add('hidden');
+                        setTimeout(() => {
+                            card.style.display = 'none';
+                        }, 300); // Match the transition duration
                     }
                 }
             });
