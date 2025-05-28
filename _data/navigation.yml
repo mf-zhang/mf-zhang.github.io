@@ -1,10 +1,12 @@
 # main links links
+latest_cv_path: /files/Mingfang_Zhang_CV_202505.pdf 
+
 main:
   - title: "Publications"
     url: /publications/
 
   - title: "CV"
-    url: {% cv_path %}
+    url: {{ site.data.navigation.latest_cv_path }}
 
   # - title: "Teaching"
   #   url: /teaching/    
@@ -20,3 +22,4 @@ main:
     
   # - title: "Guide"
   #   url: /markdown/
+
