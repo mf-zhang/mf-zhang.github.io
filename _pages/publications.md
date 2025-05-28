@@ -5,7 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
-My research focus on computer vision and human activity understanding, specifically involving video and multi-view understanding [<span class="category-a">a</span>], vision-language multimodal models [<span class="category-b">b</span>], and human body perception [<span class="category-c">c</span>].
+My research focus on computer vision and human activity understanding, specifically involving: <br>
+<span class="category-a">[a]</span> video and multi-view understanding; <br>
+<span class="category-b">[b]</span> vision-language multimodal models; <br>
+<span class="category-c">[c]</span> human body perception. <br>
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
