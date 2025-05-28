@@ -174,14 +174,14 @@
     margin-bottom: 0;
     padding: 5px 10px;
     border-radius: 4px;
-    background-color: $primary-color;
-    color: #fff;
-    border: none;
+    background-color: #fff;
+    color: $gray;
+    border: 1px solid $light-gray;
     font-size: $type-size-6;
-    transition: background-color 0.2s ease;
+    transition: all 0.2s ease;
 
     &:hover {
-      background-color: darken($primary-color, 10%);
+      background-color: $light-gray;
     }
 
     @include breakpoint($large) {

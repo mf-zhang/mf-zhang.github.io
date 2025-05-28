@@ -572,49 +572,55 @@ redirect_from:
 </div>
 
 <script>
-// Wait for the page to be fully loaded
-window.addEventListener('load', function() {
-    // Get all filter buttons and publication cards
+// Initialize filter functionality
+function initFilters() {
     const tagFilters = document.querySelectorAll('.tag-filter');
     const publicationCards = document.querySelectorAll('.publication-card');
 
-    // Add click event listener to each filter
-    tagFilters.forEach(filter => {
-        filter.addEventListener('click', function() {
-            // Remove active class from all filters
-            tagFilters.forEach(f => f.classList.remove('active'));
-            // Add active class to clicked filter
-            this.classList.add('active');
-
-            const selectedTag = this.getAttribute('data-tag');
-
-            // Filter the publication cards
-            publicationCards.forEach(card => {
-                if (selectedTag === 'all') {
+    function filterCards(selectedTag) {
+        publicationCards.forEach(card => {
+            if (selectedTag === 'all') {
+                card.style.display = 'flex';
+                setTimeout(() => {
+                    card.classList.remove('hidden');
+                }, 10);
+            } else {
+                const cardTags = Array.from(card.querySelectorAll('.publication-tag'))
+                    .map(tag => tag.textContent);
+                
+                if (cardTags.includes(selectedTag)) {
                     card.style.display = 'flex';
                     setTimeout(() => {
                         card.classList.remove('hidden');
                     }, 10);
                 } else {
-                    const cardTags = Array.from(card.querySelectorAll('.publication-tag'))
-                        .map(tag => tag.textContent);
-                    
-                    if (cardTags.includes(selectedTag)) {
-                        card.style.display = 'flex';
-                        setTimeout(() => {
-                            card.classList.remove('hidden');
-                        }, 10);
-                    } else {
-                        card.classList.add('hidden');
-                        setTimeout(() => {
-                            card.style.display = 'none';
-                        }, 300); // Match the transition duration
-                    }
+                    card.classList.add('hidden');
+                    setTimeout(() => {
+                        card.style.display = 'none';
+                    }, 300);
                 }
-            });
+            }
+        });
+    }
+
+    tagFilters.forEach(filter => {
+        filter.addEventListener('click', function() {
+            tagFilters.forEach(f => f.classList.remove('active'));
+            this.classList.add('active');
+            filterCards(this.getAttribute('data-tag'));
         });
     });
-});
+}
+
+// Try multiple ways to ensure the script runs
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilters);
+} else {
+    initFilters();
+}
+
+// Backup initialization
+window.addEventListener('load', initFilters);
 </script>
 
 <div class="publication-card">
