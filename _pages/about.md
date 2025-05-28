@@ -321,7 +321,7 @@ redirect_from:
             <img src="../images/logo/logo_ca.png" alt="CyberAgent Logo" class="company-logo"/>
             <div class="experience-content">
                 <div>
-                    <span class="company-name">CyberAgent AI Lab</span>
+                    <span class="company-name">Intern at CyberAgent AI Lab</span>
                     <span class="team-name">Activity Understanding Team</span>
                 </div>
             </div>
@@ -333,7 +333,7 @@ redirect_from:
             <img src="../images/logo/logo_shai.png" alt="Shanghai AI Lab Logo" class="company-logo"/>
             <div class="experience-content">
                 <div>
-                    <span class="company-name">Shanghai AI Laboratory</span>
+                    <span class="company-name">Intern at Shanghai AI Laboratory</span>
                     <span class="team-name">OpenGVLab</span>
                 </div>
             </div>
@@ -345,7 +345,7 @@ redirect_from:
             <img src="../images/logo/logo_msra.png" alt="Microsoft Research Asia Logo" class="company-logo"/>
             <div class="experience-content">
                 <div>
-                    <span class="company-name">Microsoft Research Asia</span>
+                    <span class="company-name">Intern at Microsoft Research Asia</span>
                     <span class="team-name">Media Computing Group</span>
                 </div>
             </div>
