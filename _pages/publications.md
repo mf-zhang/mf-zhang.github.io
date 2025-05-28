@@ -5,6 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% raw %}
 <style>
 .publication-card {
     display: flex;
@@ -246,3 +247,4 @@ author_profile: true
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020</p>
     </div>
 </a>
+{% endraw %}
