@@ -387,65 +387,220 @@ redirect_from:
 .publication-card {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
-    padding: 20px;
-    transition: transform 0.2s ease-in-out;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+    margin: 24px 0;
+    padding: 24px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .publication-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
 .publication-image {
-    flex: 1 1 300px;
+    flex: 1 1 280px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .publication-image img {
     width: 100%;
-    max-width: 300px;
-    border-radius: 5px;
+    max-width: 280px;
+    border-radius: 8px;
     object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.publication-image img:hover {
+    transform: scale(1.02);
 }
 
 .publication-content {
-    flex: 1 1 300px;
-    margin-left: 20px;
+    flex: 1 1 400px;
+    margin-left: 24px;
 }
 
 .publication-title {
     color: #2c3e50;
-    margin-bottom: 10px;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 12px;
 }
 
 .publication-authors {
     color: #34495e;
-    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 12px;
 }
 
 .publication-venue {
     color: #7f8c8d;
-    margin-bottom: 10px;
+    font-size: 0.95em;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.publication-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .publication-links a {
-    display: inline-block;
-    margin-right: 15px;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
     color: #3498db;
     text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 500;
+    background: rgba(52, 152, 219, 0.1);
+    transition: all 0.2s ease;
 }
 
 .publication-links a:hover {
-    text-decoration: underline;
+    background: rgba(52, 152, 219, 0.2);
+    transform: translateY(-1px);
+}
+
+.publication-tags {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+
+.publication-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    background: rgba(52, 152, 219, 0.08);
+    color: #3498db;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.publication-tag:hover {
+    background: rgba(52, 152, 219, 0.15);
+}
+
+.tag-filter-container {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    padding: 16px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.tag-filter {
+    display: inline-block;
+    padding: 6px 12px;
+    background: #ffffff;
+    color: #3498db;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.tag-filter:hover {
+    background: rgba(52, 152, 219, 0.1);
+}
+
+.tag-filter.active {
+    background: #3498db;
+    color: #ffffff;
+}
+
+.publication-card.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+@media (max-width: 768px) {
+    .publication-card {
+        padding: 16px;
+        margin: 16px 0;
+    }
+    
+    .publication-content {
+        margin-left: 0;
+    }
+    
+    .publication-image {
+        margin-bottom: 16px;
+    }
+    
+    .publication-title {
+        font-size: 1.1em;
+    }
+    
+    .publication-authors {
+        font-size: 0.95em;
+    }
+    
+    .publication-venue {
+        font-size: 0.9em;
+    }
 }
 </style>
 
 <div class="section-title">Publications</div>
+
+<div class="tag-filter-container">
+    <div class="tag-filter active" data-tag="all">All</div>
+    <div class="tag-filter" data-tag="Egocentric Vision">Egocentric Vision</div>
+    <div class="tag-filter" data-tag="Vision-Language Models">Vision-Language Models</div>
+    <div class="tag-filter" data-tag="3D Vision">3D Vision</div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tagFilters = document.querySelectorAll('.tag-filter');
+    const publicationCards = document.querySelectorAll('.publication-card');
+
+    tagFilters.forEach(filter => {
+        filter.addEventListener('click', function() {
+            // Update active state of filters
+            tagFilters.forEach(f => f.classList.remove('active'));
+            this.classList.add('active');
+
+            const selectedTag = this.getAttribute('data-tag');
+
+            publicationCards.forEach(card => {
+                if (selectedTag === 'all') {
+                    card.classList.remove('hidden');
+                } else {
+                    const cardTags = Array.from(card.querySelectorAll('.publication-tag'))
+                        .map(tag => tag.textContent);
+                    if (cardTags.includes(selectedTag)) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                }
+            });
+        });
+    });
+});
+</script>
 
 <div class="publication-card">
     <div class="publication-image">
@@ -458,6 +613,10 @@ redirect_from:
         <div class="publication-links">
             <a href="https://arxiv.org/pdf/2503.04250">Paper</a>
             <a href="https://github.com/OpenGVLab/vinci">Code</a>
+        </div>
+        <div class="publication-tags">
+            <span class="publication-tag">Egocentric Vision</span>
+            <span class="publication-tag">Vision-Language Models</span>
         </div>
     </div>
 </div>
@@ -474,6 +633,10 @@ redirect_from:
             <a href="https://arxiv.org/abs/2505.14346">Paper</a>
             <a href="https://github.com/mf-zhang/Ego-Inertial-Localization">Demo and Code</a>
         </div>
+        <div class="publication-tags">
+            <span class="publication-tag">Egocentric Vision</span>
+            <span class="publication-tag">3D Vision</span>
+        </div>
     </div>
 </div>
 
@@ -487,6 +650,9 @@ redirect_from:
         <p class="publication-venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025</p>
         <div class="publication-links">
             <a href="https://ieeexplore.ieee.org/document/11015819">Paper</a>
+        </div>
+        <div class="publication-tags">
+            <span class="publication-tag">Vision-Language Models</span>
         </div>
     </div>
 </div>
@@ -503,6 +669,9 @@ redirect_from:
             <a href="https://arxiv.org/pdf/2502.15251">Paper</a>
             <a href="https://github.com/ut-vision/SiMHand">Code</a>
         </div>
+        <div class="publication-tags">
+            <span class="publication-tag">3D Vision</span>
+        </div>
     </div>
 </div>
 
@@ -517,6 +686,9 @@ redirect_from:
         <div class="publication-links">
             <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a>
             <a href="https://github.com/mf-zhang/IMU-Video-MAE">Code</a>
+        </div>
+        <div class="publication-tags">
+            <span class="publication-tag">Egocentric Vision</span>
         </div>
     </div>
 </div>
@@ -533,6 +705,9 @@ redirect_from:
             <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a>
             <a href="https://github.com/OpenGVLab/EgoExoLearn">Code</a>
         </div>
+        <div class="publication-tags">
+            <span class="publication-tag">Egocentric Vision</span>
+        </div>
     </div>
 </div>
 
@@ -547,6 +722,10 @@ redirect_from:
         <div class="publication-links">
             <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a>
             <a href="https://github.com/ut-vision/S2DHand">Code</a>
+        </div>
+        <div class="publication-tags">
+            <span class="publication-tag">Egocentric Vision</span>
+            <span class="publication-tag">3D Vision</span>
         </div>
     </div>
 </div>
@@ -563,6 +742,9 @@ redirect_from:
             <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a>
             <a href="https://github.com/mf-zhang/Structural-MPI">Code</a>
         </div>
+        <div class="publication-tags">
+            <span class="publication-tag">3D Vision</span>
+        </div>
     </div>
 </div>
 
@@ -577,6 +759,9 @@ redirect_from:
         <div class="publication-links">
             <a href="https://arxiv.org/abs/2204.09480">Paper</a>
             <a href="https://github.com/mf-zhang/GazeOnce">Code</a>
+        </div>
+        <div class="publication-tags">
+            <span class="publication-tag">Egocentric Vision</span>
         </div>
     </div>
 </div>
@@ -593,6 +778,9 @@ redirect_from:
             <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a>
             <a href="https://github.com/mf-zhang/Optical-Flow-in-the-Dark">Code</a>
         </div>
+        <div class="publication-tags">
+            <span class="publication-tag">3D Vision</span>
+        </div>
     </div>
 </div>
 
@@ -607,6 +795,9 @@ redirect_from:
         <div class="publication-links">
             <a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Optical_Flow_in_the_Dark_CVPR_2020_paper.pdf">Paper</a>
             <a href="https://github.com/mf-zhang/Optical-Flow-in-the-Dark">Code</a>
+        </div>
+        <div class="publication-tags">
+            <span class="publication-tag">3D Vision</span>
         </div>
     </div>
 </div>
