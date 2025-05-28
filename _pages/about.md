@@ -56,6 +56,18 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 
 <div style="display: flex; flex-wrap: wrap; align-items: center;">
     <div style="flex: 1 1 300px;">
+        <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025" style="width: 100%; max-width: 300px;"/>
+    </div>
+    <div style="flex: 1 1 300px; margin-left: 20px;">
+        <h3>Prompt-augmented Boundary Attentive Learning for Weakly Supervised Temporal Sentence Grounding</h3>
+        <p>Zhehao Zhu, Yifei Huang, <b>Mingfang Zhang</b>, Liangyang Ouyang, Yoichi Sato <br> IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025 <br> <a href="https://ieeexplore.ieee.org/document/11015819">Paper</a></p>
+    </div>
+</div>
+
+---
+
+<div style="display: flex; flex-wrap: wrap; align-items: center;">
+    <div style="flex: 1 1 300px;">
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" style="width: 100%; max-width: 300px;"/>
     </div>
     <div style="flex: 1 1 300px; margin-left: 20px;">
