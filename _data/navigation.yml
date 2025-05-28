@@ -4,7 +4,7 @@ main:
     url: /publications/
 
   - title: "CV"
-    url: /files/Mingfang_Zhang_CV_202505.pdf    
+    url: "{{ site.data.cv.latest_cv_path }}"
 
   # - title: "Teaching"
   #   url: /teaching/    

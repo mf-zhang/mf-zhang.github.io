@@ -387,7 +387,7 @@ redirect_from:
 
 <div class="awards-card">
     <div class="award-item">
-        <span>Please visit my <a href="/publications/" style="color: #3498db; text-decoration: none; font-weight: 500;">publications page</a> or <a href="/cv/" style="color: #3498db; text-decoration: none; font-weight: 500;">CV</a> for more details.</span>
+        <span>Please visit my <a href="/publications/" style="color: #3498db; text-decoration: none; font-weight: 500;">publications page</a> or <a href="{{ site.data.cv.latest_cv_path }}" style="color: #3498db; text-decoration: none; font-weight: 500;">CV</a> for more details.</span>
     </div>
 </div>
 
