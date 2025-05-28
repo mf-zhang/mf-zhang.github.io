@@ -15,7 +15,7 @@ layout: default
 {% endif %}
 
 <div id="main" role="main">
-  {% include sidebar.html %}
+  <!-- {% include sidebar.html %} -->
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -49,32 +49,32 @@ layout: default
 
         {% if page.citation and page.paperurl and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Paper</a>
-            <a href="{{ page.slidesurl }}" class="btn btn--primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
+            <a href="{{ page.paperurl }}" class="btn btn--primary btn--large"><i class="fas fa-file-pdf"></i> Paper</a>
+            <a href="{{ page.slidesurl }}" class="btn btn--primary btn--large"><i class="fas fa-file-powerpoint"></i> Slides</a>
           </p>
         {% elsif page.citation and page.paperurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
-            <a href="{{ page.paperurl }}" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Paper</a>
+            <a href="{{ page.paperurl }}" class="btn btn--primary btn--large"><i class="fas fa-file-pdf"></i> Paper</a>
             {% if page.codeurl %}
-            <a href="{{ page.codeurl }}" class="btn btn--primary"><i class="fab fa-github"></i> Code</a>
+            <a href="{{ page.codeurl }}" class="btn btn--primary btn--large"><i class="fab fa-github"></i> Code</a>
             {% endif %}
           </p>
         {% elsif page.citation and page.slidesurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />
-            <a href="{{ page.slidesurl }}" class="btn btn--primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
+            <a href="{{ page.slidesurl }}" class="btn btn--primary btn--large"><i class="fas fa-file-powerpoint"></i> Slides</a>
           </p>
         {% elsif page.citation %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
         {% elsif page.paperurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.paperurl }}" class="btn btn--primary"><i class="fas fa-file-pdf"></i> Paper</a>
+            <a href="{{ page.paperurl }}" class="btn btn--primary btn--large"><i class="fas fa-file-pdf"></i> Paper</a>
             {% if page.codeurl %}
-            <a href="{{ page.codeurl }}" class="btn btn--primary"><i class="fab fa-github"></i> Code</a>
+            <a href="{{ page.codeurl }}" class="btn btn--primary btn--large"><i class="fab fa-github"></i> Code</a>
             {% endif %}
           </p>
         {% elsif page.slidesurl %}
           <p style="font-size: smaller">
-            <a href="{{ page.slidesurl }}" class="btn btn--primary"><i class="fas fa-file-powerpoint"></i> Slides</a>
+            <a href="{{ page.slidesurl }}" class="btn btn--primary btn--large"><i class="fas fa-file-powerpoint"></i> Slides</a>
           </p>
         {% endif %}
 
