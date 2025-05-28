@@ -32,7 +32,7 @@ redirect_from:
 
 .intro-text a {
     color: var(--global-theme-color);
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 500;
     transition: color 0.2s ease;
 }
@@ -216,7 +216,7 @@ redirect_from:
 }
 
 .company-name {
-    font-weight: 500;
+    font-weight: 400;
     margin-right: 4px;
     display: inline-block;
     min-width: 120px;
