@@ -68,20 +68,20 @@ author_profile: true
     font-size: 1.25em;
     font-weight: 600;
     line-height: 1.4;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
 .publication-authors {
     color: #34495e;
     font-size: 1em;
     line-height: 1.6;
-    margin-bottom: 12px;
+    margin-bottom: 6px;
 }
 
 .publication-venue {
     color: #7f8c8d;
     font-size: 0.95em;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     font-weight: 500;
 }
 
