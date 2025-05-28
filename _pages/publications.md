@@ -5,20 +5,37 @@ permalink: /publications/
 author_profile: true
 ---
 
-I focus on computer vision and human activity understanding, specifically involving video and multi-view understanding [a], vision-language multimodal models [b], and human body perception [c].
+My research focus on computer vision and human activity understanding, specifically involving video and multi-view understanding [<span class="category-a">a</span>], vision-language multimodal models [<span class="category-b">b</span>], and human body perception [<span class="category-c">c</span>].
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 <style>
+.venue-ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2c3e50;
+    color: white;
+    padding: 4px 12px;
+    font-size: 0.85em;
+    font-weight: 500;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.venue-ribbon::after {
+    display: none;
+}
+
 .publication-card {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     background: #ffffff;
-    border-radius: 12px;
+    border-radius: 4px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
     margin: 24px 0;
     padding: 24px;
@@ -200,7 +217,7 @@ I focus on computer vision and human activity understanding, specifically involv
 }
 
 .publication-number .num2.category-c {
-    color: #9b59b6;
+    color: #e67e22;
 }
 
 .category-tag {
@@ -223,8 +240,8 @@ I focus on computer vision and human activity understanding, specifically involv
 }
 
 .category-c {
-    background: rgba(155, 89, 182, 0.1);
-    color: #9b59b6;
+    background: rgba(230, 126, 34, 0.1);
+    color: #e67e22;
 }
 
 @media (max-width: 768px) {
@@ -259,8 +276,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </style>
 
 <div class="publication-card">
+    <div class="venue-ribbon">Arxiv</div>
     <div class="publication-number">
-        #<span class="num1">1</span>[<span class="num2 category-b">b</span>]
+        #<span class="num1">11</span>[<span class="num2 category-b">b3</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025"/>
@@ -276,8 +294,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">Arxiv</div>
     <div class="publication-number">
-        #<span class="num1">2</span>[<span class="num2 category-a">a</span>]
+        #<span class="num1">10</span>[<span class="num2 category-b">b2</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025"/>
@@ -293,8 +312,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">TCSVT</div>
     <div class="publication-number">
-        #<span class="num1">3</span>[<span class="num2 category-b">b</span>]
+        #<span class="num1">9</span>[<span class="num2 category-b">b1</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025"/>
@@ -310,8 +330,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">ICLR</div>
     <div class="publication-number">
-        #<span class="num1">4</span>[<span class="num2 category-c">c</span>]
+        #<span class="num1">8</span>[<span class="num2 category-c">c3</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025"/>
@@ -327,8 +348,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">ECCV</div>
     <div class="publication-number">
-        #<span class="num1">5</span>[<span class="num2 category-a">a</span>]
+        #<span class="num1">7</span>[<span class="num2 category-a">a5</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024"/>
@@ -344,8 +366,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1">6</span>[<span class="num2 category-a">a</span>]
+        #<span class="num1">6</span>[<span class="num2 category-a">a4</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024"/>
@@ -361,8 +384,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1">7</span>[<span class="num2 category-c">c</span>]
+        #<span class="num1">5</span>[<span class="num2 category-c">c2</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_hand.jpeg" alt="CVPR 2024"/>
@@ -378,8 +402,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1">8</span>[<span class="num2 category-a">a</span>]
+        #<span class="num1">4</span>[<span class="num2 category-a">a3</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023"/>
@@ -395,8 +420,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1">9</span>[<span class="num2 category-c">c</span>]
+        #<span class="num1">3</span>[<span class="num2 category-c">c1</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr22_gaze.jpeg" alt="CVPR 2022"/>
@@ -412,8 +438,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">TPAMI</div>
     <div class="publication-number">
-        #<span class="num1">10</span>[<span class="num2 category-a">a</span>]
+        #<span class="num1">2</span>[<span class="num2 category-a">a2</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021"/>
@@ -429,8 +456,9 @@ I focus on computer vision and human activity understanding, specifically involv
 </div>
 
 <div class="publication-card">
+    <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1">11</span>[<span class="num2 category-a">a</span>]
+        #<span class="num1">1</span>[<span class="num2 category-a">a1</span>]
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr20_dark.jpeg" alt="CVPR 2020"/>
