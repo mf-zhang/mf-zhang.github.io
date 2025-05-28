@@ -78,7 +78,7 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
         <div class="education-school">The University of Tokyo</div>
         <div class="education-degree">
             <span>Ph.D. in Information Science</span>
-            <span class="education-date">2026.3 (expected)</span>
+            <span class="education-date">2026.3</span>
         </div>
         <div class="education-degree">
             <span>M.Sc. in Information Science</span>
@@ -101,18 +101,143 @@ I'm a PhD student at the University of Tokyo, supervised by Prof. [Yoichi Sato](
 </div>
 
 ## 🔬 Research Experience
-* Intern at CyberAgent AI Lab, Activity Understanding Team, 2024
-* Intern at Shanghai AI Laboratory, OpenGVLab, 2023
-* Intern at Microsoft Research Asia, Media Computing Group, 2022
-* Intern at PCL Shenzhen, Virtual Reality Lab, 2021
+
+<style>
+.experience-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 8px 0;
+    padding: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.experience-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.experience-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-size: 0.95em;
+}
+
+.experience-item:last-child {
+    margin-bottom: 0;
+}
+
+.experience-company {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.company-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    object-fit: contain;
+}
+
+.experience-date {
+    color: #7f8c8d;
+    font-size: 0.85em;
+    margin-left: 12px;
+}
+
+.awards-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 8px 0;
+    padding: 12px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.awards-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.award-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-size: 0.95em;
+}
+
+.award-item:last-child {
+    margin-bottom: 0;
+}
+
+.award-icon {
+    margin-right: 8px;
+    color: #3498db;
+    font-size: 1.2em;
+    line-height: 1;
+}
+</style>
+
+<div class="experience-card">
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_ca.png" alt="CyberAgent Logo" class="company-logo"/>
+            <span>Intern at <a href="https://research.cyberagent.ai/research/activity-understanding/" style="color: inherit; text-decoration: none;">CyberAgent AI Lab, Activity Understanding Team</a></span>
+        </div>
+        <span class="experience-date">2024</span>
+    </div>
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_shai.png" alt="Shanghai AI Lab Logo" class="company-logo"/>
+            <span>Intern at <a href="https://github.com/opengvlab" style="color: inherit; text-decoration: none;">Shanghai AI Laboratory, OpenGVLab</a></span>
+        </div>
+        <span class="experience-date">2023</span>
+    </div>
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_msra.png" alt="Microsoft Research Asia Logo" class="company-logo"/>
+            <span>Intern at <a href="https://www.microsoft.com/en-us/research/group/media-computing-group/" style="color: inherit; text-decoration: none;">Microsoft Research Asia, Media Computing Group</a></span>
+        </div>
+        <span class="experience-date">2022</span>
+    </div>
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_pcl.png" alt="PCL Logo" class="company-logo"/>
+            <span>Intern at PCL Shenzhen, Virtual Reality Lab</span>
+        </div>
+        <span class="experience-date">2021</span>
+    </div>
+</div>
 
 ## 🎖️ Services and Awards
-* JSPS Research Fellowship for Young Scientists DC2
-* Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ACMMM, BMVC
-* UTokyo-IIS Research Collaboration Initiative Award
-* "Stars of Tomorrow" award by Microsoft Research Asia
-* Contracted photographer of Visual China Group
 
+<div class="awards-card">
+    <div class="award-item">
+        <span class="award-icon">•</span>
+        <span>JSPS Research Fellowship for Young Scientists DC2</span>
+    </div>
+    <div class="award-item">
+        <span class="award-icon">•</span>
+        <span>Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ACMMM, BMVC</span>
+    </div>
+    <div class="award-item">
+        <span class="award-icon">•</span>
+        <span>UTokyo-IIS Research Collaboration Initiative Award</span>
+    </div>
+    <div class="award-item">
+        <span class="award-icon">•</span>
+        <span>"Stars of Tomorrow" award by Microsoft Research Asia</span>
+    </div>
+    <div class="award-item">
+        <span class="award-icon">•</span>
+        <span>Contracted photographer of Visual China Group</span>
+    </div>
+</div>
 
 ## 📄 Publications
 
