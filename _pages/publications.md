@@ -5,12 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
+I focus on computer vision and human activity understanding, specifically involving video and multi-view understanding [a], vision-language multimodal models [b], and human body perception [c].
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 <style>
 .publication-card {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -83,6 +86,8 @@ author_profile: true
     font-size: 0.95em;
     margin-bottom: 12px;
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
 
 .publication-links {
@@ -169,6 +174,59 @@ author_profile: true
     transform: translateY(20px);
 }
 
+.publication-number {
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #666;
+}
+
+.publication-number .num1 {
+    color: #000000;
+}
+
+.publication-number .num2 {
+    color: #e74c3c;
+}
+
+.publication-number .num2.category-a {
+    color: #3498db;
+}
+
+.publication-number .num2.category-b {
+    color: #2ecc71;
+}
+
+.publication-number .num2.category-c {
+    color: #9b59b6;
+}
+
+.category-tag {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.category-a {
+    background: rgba(52, 152, 219, 0.1);
+    color: #3498db;
+}
+
+.category-b {
+    background: rgba(46, 204, 113, 0.1);
+    color: #2ecc71;
+}
+
+.category-c {
+    background: rgba(155, 89, 182, 0.1);
+    color: #9b59b6;
+}
+
 @media (max-width: 768px) {
     .publication-card {
         padding: 16px;
@@ -200,8 +258,10 @@ author_profile: true
 }
 </style>
 
-
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">1</span>[<span class="num2 category-b">b</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025"/>
     </div>
@@ -216,6 +276,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">2</span>[<span class="num2 category-a">a</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025"/>
     </div>
@@ -230,6 +293,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">3</span>[<span class="num2 category-b">b</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025"/>
     </div>
@@ -244,6 +310,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">4</span>[<span class="num2 category-c">c</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025"/>
     </div>
@@ -258,6 +327,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">5</span>[<span class="num2 category-a">a</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024"/>
     </div>
@@ -272,6 +344,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">6</span>[<span class="num2 category-a">a</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024"/>
     </div>
@@ -286,6 +361,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">7</span>[<span class="num2 category-c">c</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_hand.jpeg" alt="CVPR 2024"/>
     </div>
@@ -300,6 +378,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">8</span>[<span class="num2 category-a">a</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023"/>
     </div>
@@ -314,6 +395,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">9</span>[<span class="num2 category-c">c</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr22_gaze.jpeg" alt="CVPR 2022"/>
     </div>
@@ -328,6 +412,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">10</span>[<span class="num2 category-a">a</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021"/>
     </div>
@@ -342,6 +429,9 @@ author_profile: true
 </div>
 
 <div class="publication-card">
+    <div class="publication-number">
+        #<span class="num1">11</span>[<span class="num2 category-a">a</span>]
+    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr20_dark.jpeg" alt="CVPR 2020"/>
     </div>
