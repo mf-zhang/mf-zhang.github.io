@@ -193,7 +193,7 @@ redirect_from:
 
 .experience-company {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     gap: 8px;
     flex: 1;
@@ -206,7 +206,6 @@ redirect_from:
     margin-right: 8px;
     object-fit: contain;
     flex-shrink: 0;
-    margin-top: 2px;
 }
 
 .experience-content {
@@ -222,6 +221,7 @@ redirect_from:
     display: inline-block;
     min-width: 120px;
     line-height: 1.4;
+    padding-top: 2px;
 }
 
 .team-name {
@@ -249,10 +249,11 @@ redirect_from:
         width: auto;
         align-items: center;
         flex: 1;
+        gap: 4px;
     }
     
     .experience-content {
-        margin-left: 28px;
+        margin-left: 0;
         width: auto;
     }
     
