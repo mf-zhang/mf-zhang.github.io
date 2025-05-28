@@ -68,6 +68,7 @@ redirect_from:
     flex: 0 0 32px;
     margin-right: 12px;
     text-align: center;
+    padding-top: 8px;
 }
 
 .education-icon img {
@@ -191,7 +192,6 @@ redirect_from:
 .experience-company {
     display: flex;
     align-items: center;
-    font-weight: 500;
 }
 
 .company-logo {
@@ -287,12 +287,12 @@ redirect_from:
 <div class="awards-card">
     <div class="award-item">
         <span class="award-icon">•</span>
-        <span>JSPS Research Fellowship for Young Scientists DC2</span>
-        <span class="award-date">2025</span>
+        <span>Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ACMMM, BMVC</span>
     </div>
     <div class="award-item">
         <span class="award-icon">•</span>
-        <span>Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ACMMM, BMVC</span>
+        <span>JSPS Research Fellowship for Young Scientists DC2</span>
+        <span class="award-date">2025</span>
     </div>
     <div class="award-item">
         <span class="award-icon">•</span>
