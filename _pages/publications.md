@@ -32,16 +32,18 @@ author_profile: true
 }
 
 .publication-image {
-    flex: 1 1 280px;
+    flex: 0 0 280px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-right: 24px;
+    margin-bottom: 0;
 }
 
 .publication-image img {
     width: 100%;
     max-width: 280px;
-    border-radius: 8px;
+    height: 100%;
     object-fit: cover;
+    border-radius: 8px;
     transition: transform 0.3s ease;
 }
 
@@ -50,8 +52,9 @@ author_profile: true
 }
 
 .publication-content {
-    flex: 1 1 400px;
-    margin-left: 24px;
+    flex: 1;
+    min-width: 300px;
+    margin-left: 0;
 }
 
 .publication-title {
@@ -166,12 +169,14 @@ author_profile: true
         margin: 16px 0;
     }
     
-    .publication-content {
-        margin-left: 0;
+    .publication-image {
+        flex: 0 0 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
     }
     
-    .publication-image {
-        margin-bottom: 16px;
+    .publication-content {
+        margin-left: 0;
     }
     
     .publication-title {
@@ -198,7 +203,7 @@ author_profile: true
         <p class="publication-authors">Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, <b>Mingfang Zhang</b>, Lijin Yang, ..., Limin Wang</p>
         <p class="publication-venue">Arxiv preprint, 2025</p>
         <div class="publication-links">
-            <a href="/publications/2025-03-01-egocentric-vision-language-model/">Project Page</a>
+            <a href="/publications/2025-03-01-egocentric-vision-language-model">Project Page</a>
         </div>
     </div>
 </div>
@@ -212,7 +217,7 @@ author_profile: true
         <p class="publication-authors"><b>Mingfang Zhang</b>, Ryo Yonetani, Yifei Huang, Liangyang Ouyang, Ruicong Liu, Yoichi Sato</p>
         <p class="publication-venue">Arxiv preprint, 2025</p>
         <div class="publication-links">
-            <a href="/publications/2025-05-01-egocentric-action-aware-inertial-localization/">Project Page</a>
+            <a href="/publications/2025-05-01-egocentric-action-aware-inertial-localization">Project Page</a>
         </div>
     </div>
 </div>
