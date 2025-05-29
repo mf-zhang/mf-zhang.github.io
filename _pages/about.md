@@ -820,7 +820,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">Arxiv</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">b3</span></a>]
+        #<span class="num1"></span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025" loading="lazy"/>
@@ -839,7 +839,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">Arxiv</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">b2</span></a>]
+        #<span class="num1"></span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b2]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025" loading="lazy"/>
@@ -858,7 +858,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">TCSVT</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">b1</span></a>]
+        #<span class="num1"></span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b1]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025" loading="lazy"/>
@@ -877,7 +877,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">ICLR</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#c-human-body-perception"><span class="num2 category-c">c3</span></a>]
+        #<span class="num1"></span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c3]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" loading="lazy"/>
@@ -896,7 +896,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">ECCV</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">a5</span></a>]
+        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a5]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024" loading="lazy"/>
@@ -915,7 +915,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">a4</span></a>]
+        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a4]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024" loading="lazy"/>
@@ -934,7 +934,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#c-human-body-perception"><span class="num2 category-c">c2</span></a>]
+        #<span class="num1"></span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c2]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_hand.jpeg" alt="CVPR 2024" loading="lazy"/>
@@ -953,7 +953,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">a3</span></a>]
+        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a3]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023" loading="lazy"/>
@@ -972,7 +972,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#c-human-body-perception"><span class="num2 category-c">c1</span></a>]
+        #<span class="num1"></span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c1]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr22_gaze.jpeg" alt="CVPR 2022" loading="lazy"/>
@@ -991,7 +991,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">TPAMI</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">a2</span></a>]
+        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a2]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021" loading="lazy"/>
@@ -1010,7 +1010,7 @@ redirect_from:
 <div class="publication-card">
     <div class="venue-ribbon">CVPR</div>
     <div class="publication-number">
-        #<span class="num1"></span>[<a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">a1</span></a>]
+        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a1]</span></a>
     </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr20_dark.jpeg" alt="CVPR 2020" loading="lazy"/>
