@@ -666,7 +666,8 @@ redirect_from:
         <p class="publication-authors">Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, <b>Mingfang Zhang</b>, Lijin Yang, ..., Limin Wang</p>
         <p class="publication-venue">Arxiv preprint, 2025</p>
         <div class="publication-links">
-            <a href="/publication/2025-03-01-egocentric-assistant">Project Page</a>
+            <a href="https://github.com/OpenGVLab/vinci">Project Page</a>
+            <a href="https://arxiv.org/pdf/2503.04250">Paper</a>
         </div>
     </div>
 </div>
@@ -685,6 +686,7 @@ redirect_from:
         <p class="publication-venue">Arxiv preprint, 2025</p>
         <div class="publication-links">
             <a href="/publication/2025-05-01-egocentric-localization">Project Page</a>
+            <a href="https://arxiv.org/abs/2505.14346">Paper</a>
         </div>
     </div>
 </div>
@@ -702,7 +704,8 @@ redirect_from:
         <p class="publication-authors">Zhehao Zhu, Yifei Huang, <b>Mingfang Zhang</b>, Liangyang Ouyang, Yoichi Sato</p>
         <p class="publication-venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025</p>
         <div class="publication-links">
-            <a href="/publication/2025-05-01-prompt-grounding">Project Page</a>
+            <!-- <a href="/publication/2025-05-01-prompt-grounding">Project Page</a> -->
+            <a href="https://ieeexplore.ieee.org/document/11015819">Paper</a>
         </div>
     </div>
 </div>
@@ -720,7 +723,8 @@ redirect_from:
         <p class="publication-authors">Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato</p>
         <p class="publication-venue">International Conference on Learning Representations (ICLR), 2025</p>
         <div class="publication-links">
-            <a href="/publication/2025-02-01-simhand-handpose">Project Page</a>
+            <a href="https://tkhkaeio.github.io/projects/25-simhand/index.html">Project Page</a>
+            <a href="https://arxiv.org/pdf/2502.15251">Paper</a>
         </div>
     </div>
 </div>
@@ -739,6 +743,7 @@ redirect_from:
         <p class="publication-venue">European Conference on Computer Vision (ECCV), 2024</p>
         <div class="publication-links">
             <a href="/publication/2024-07-01-masked-recognition">Project Page</a>
+            <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a>
         </div>
     </div>
 </div>
@@ -756,7 +761,8 @@ redirect_from:
         <p class="publication-authors">(* co-first author) Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei, Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao</p>
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
         <div class="publication-links">
-            <a href="/publication/2024-03-01-egoexolearn-procedural">Project Page</a>
+            <a href="https://github.com/OpenGVLab/EgoExoLearn">Project Page</a>
+            <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a>
         </div>
     </div>
 </div>
@@ -774,7 +780,8 @@ redirect_from:
         <p class="publication-authors">Ruicong Liu, Takehiko Ohkawa, <b>Mingfang Zhang</b>, Yoichi Sato</p>
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
         <div class="publication-links">
-            <a href="/publication/2024-03-01-single-handpose">Project Page</a>
+            <a href="https://github.com/ut-vision/S2DHand">Project Page</a>
+            <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a>
         </div>
     </div>
 </div>
@@ -793,6 +800,7 @@ redirect_from:
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023</p>
         <div class="publication-links">
             <a href="/publication/2023-03-01-structural-mpi">Project Page</a>
+            <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a>
         </div>
     </div>
 </div>
@@ -811,6 +819,7 @@ redirect_from:
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022</p>
         <div class="publication-links">
             <a href="/publication/2022-04-01-gazeonce-gaze">Project Page</a>
+            <a href="https://arxiv.org/abs/2204.09480">Paper</a>
         </div>
     </div>
 </div>
@@ -829,6 +838,7 @@ redirect_from:
         <p class="publication-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</p>
         <div class="publication-links">
             <a href="/publication/2021-12-01-optical-dark">Project Page</a>
+            <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a>
         </div>
     </div>
 </div>
@@ -847,6 +857,7 @@ redirect_from:
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020</p>
         <div class="publication-links">
             <a href="/publication/2020-04-01-optical-dark">Project Page</a>
+            <a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Optical_Flow_in_the_Dark_CVPR_2020_paper.pdf">Paper</a>
         </div>
     </div>
 </div>
