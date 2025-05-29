@@ -21,6 +21,8 @@ author_profile: true
   border-bottom: 2px solid #3498db;
   padding-bottom: 0.5em;
   margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .archive__item {
