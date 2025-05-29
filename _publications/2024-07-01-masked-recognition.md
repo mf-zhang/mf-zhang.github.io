@@ -5,6 +5,7 @@ permalink: /publication/2024-07-01-masked-recognition
 venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: 'http://www.arxiv.org/pdf/2407.06628'
 codeurl: 'https://github.com/mf-zhang/IMU-Video-MAE'
+authors: 'Mingfang Zhang, Yifei Huang, Ruicong Liu, Yoichi Sato'
 tags:
   - Egocentric Activities
   - Multimodal Understanding

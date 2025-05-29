@@ -5,6 +5,7 @@ permalink: /publication/2025-02-01-simhand-handpose
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://arxiv.org/pdf/2502.15251'
 codeurl: 'https://github.com/ut-vision/SiMHand'
+authors: 'Nie Lin, Takehiko Ohkawa, Yifei Huang, Mingfang Zhang, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato'
 tags:
   - Hand Pose
   - Pretraining

@@ -5,6 +5,7 @@ permalink: /publication/2022-04-01-gazeonce-gaze
 venue: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/abs/2204.09480'
 codeurl: 'https://github.com/mf-zhang/GazeOnce'
+authors: 'Mingfang Zhang, Yunfei Liu, Feng Lu'
 tags:
   - Gaze Estimation
   - Face Detection

@@ -5,6 +5,7 @@ permalink: /publication/2023-03-01-structural-mpi
 venue: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/pdf/2303.05937.pdf'
 codeurl: 'https://github.com/mf-zhang/Structural-MPI'
+authors: 'Mingfang Zhang, Jinglu Wang, Xiao Li, Yifei Huang, Yoichi Sato, Yan Lu'
 tags:
   - Multi-view Understanding
   - 3D Vision

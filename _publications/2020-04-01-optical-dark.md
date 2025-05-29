@@ -5,6 +5,7 @@ permalink: /publication/2020-04-01-optical-dark
 venue: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'http://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Optical_Flow_in_the_Dark_CVPR_2020_paper.pdf'
 codeurl: 'https://github.com/mf-zhang/Optical-Flow-in-the-Dark'
+authors: 'Yinqiang Zheng*, Mingfang Zhang*, Feng Lu'
 tags:
   - Multi-view Understanding
   - Computational Photography

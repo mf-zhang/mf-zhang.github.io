@@ -5,6 +5,7 @@ permalink: /publication/2021-12-01-optical-dark
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)'
 paperurl: 'https://ieeexplore.ieee.org/document/9626625'
 codeurl: 'https://github.com/mf-zhang/Optical-Flow-in-the-Dark'
+authors: 'Mingfang Zhang, Yinqiang Zheng, Feng Lu'
 tags:
   - Multi-view Understanding
   - Computational Photography

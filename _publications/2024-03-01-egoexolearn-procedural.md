@@ -5,6 +5,7 @@ permalink: /publication/2024-03-01-egoexolearn-procedural
 venue: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/pdf/2403.16182.pdf'
 codeurl: 'https://github.com/OpenGVLab/EgoExoLearn'
+authors: 'Yifei Huang*, Guo Chen*, Jilan Xu*, Mingfang Zhang*, Lijin Yang, Baoqi Pei, Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao'
 tags:
   - Activities Understanding
   - Multi-view Understanding
