@@ -132,7 +132,7 @@ redirect_from:
 
 <div class="education-card">
     <div class="education-icon">
-        <img src="../images/logo/logo_ut.png" alt="University of Tokyo Logo"/>
+        <img src="../images/logo/logo_ut.png" alt="University of Tokyo Logo" loading="lazy"/>
     </div>
     <div class="education-content">
         <div class="education-school">The University of Tokyo</div>
@@ -149,7 +149,7 @@ redirect_from:
 
 <div class="education-card">
     <div class="education-icon">
-        <img src="../images/logo/logo_nju.png" alt="Nanjing University Logo"/>
+        <img src="../images/logo/logo_nju.png" alt="Nanjing University Logo" loading="lazy"/>
     </div>
     <div class="education-content">
         <div class="education-school">Nanjing University</div>
@@ -318,7 +318,7 @@ redirect_from:
 <div class="experience-card">
     <div class="experience-item">
         <div class="experience-company">
-            <img src="../images/logo/logo_ca.png" alt="CyberAgent Logo" class="company-logo"/>
+            <img src="../images/logo/logo_ca.png" alt="CyberAgent Logo" class="company-logo" loading="lazy"/>
             <div class="experience-content">
                 <div>
                     <span class="company-name">Intern at CyberAgent AI Lab</span>
@@ -330,7 +330,7 @@ redirect_from:
     </div>
     <div class="experience-item">
         <div class="experience-company">
-            <img src="../images/logo/logo_shai.png" alt="Shanghai AI Lab Logo" class="company-logo"/>
+            <img src="../images/logo/logo_shai.png" alt="Shanghai AI Lab Logo" class="company-logo" loading="lazy"/>
             <div class="experience-content">
                 <div>
                     <span class="company-name">Intern at Shanghai AI Laboratory</span>
@@ -342,7 +342,7 @@ redirect_from:
     </div>
     <div class="experience-item">
         <div class="experience-company">
-            <img src="../images/logo/logo_msra.png" alt="Microsoft Research Asia Logo" class="company-logo"/>
+            <img src="../images/logo/logo_msra.png" alt="Microsoft Research Asia Logo" class="company-logo" loading="lazy"/>
             <div class="experience-content">
                 <div>
                     <span class="company-name">Intern at Microsoft Research Asia</span>
@@ -662,7 +662,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-b">b3</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025"/>
+        <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">An Egocentric Vision-Language Model based Portable Real-time Smart Assistant</h3>
@@ -681,7 +681,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-b">b2</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025"/>
+        <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Egocentric Action-aware Inertial Localization in Point Clouds</h3>
@@ -700,7 +700,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-b">b1</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025"/>
+        <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Prompt-augmented Boundary Attentive Learning for Weakly Supervised Temporal Sentence Grounding</h3>
@@ -719,7 +719,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-c">c3</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025"/>
+        <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training</h3>
@@ -738,7 +738,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-a">a5</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024"/>
+        <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
@@ -757,7 +757,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-a">a4</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024"/>
+        <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
@@ -776,7 +776,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-c">c2</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/cvpr24_hand.jpeg" alt="CVPR 2024"/>
+        <img src="../images/papers/cvpr24_hand.jpeg" alt="CVPR 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Single-to-Dual-View Adaptation for Egocentric 3D Hand Pose Estimation</h3>
@@ -795,7 +795,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-a">a3</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023"/>
+        <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Structural Multiplane Image: Bridging Neural View Synthesis and 3D Reconstruction</h3>
@@ -814,7 +814,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-c">c1</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/cvpr22_gaze.jpeg" alt="CVPR 2022"/>
+        <img src="../images/papers/cvpr22_gaze.jpeg" alt="CVPR 2022" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">GazeOnce: Real-Time Multi-Person Gaze Estimation</h3>
@@ -833,7 +833,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-a">a2</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021"/>
+        <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Optical Flow in the Dark</h3>
@@ -852,7 +852,7 @@ redirect_from:
         #<span class="num1"></span>[<span class="num2 category-a">a1</span>]
     </div>
     <div class="publication-image">
-        <img src="../images/papers/cvpr20_dark.jpeg" alt="CVPR 2020"/>
+        <img src="../images/papers/cvpr20_dark.jpeg" alt="CVPR 2020" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Optical Flow in the Dark</h3>
