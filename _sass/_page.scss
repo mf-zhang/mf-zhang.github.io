@@ -274,7 +274,7 @@
 
 // Add scroll margin to tag headings
 .archive__subtitle {
-  scroll-margin-top: 50px; // Default for mobile
+  scroll-margin-top: 100px; // Default for mobile
 
   @include breakpoint($medium) {
     scroll-margin-top: 80px; // For desktop
