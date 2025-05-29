@@ -666,7 +666,7 @@ redirect_from:
         <p class="publication-authors">Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, <b>Mingfang Zhang</b>, Lijin Yang, ..., Limin Wang</p>
         <p class="publication-venue">Arxiv preprint, 2025</p>
         <div class="publication-links">
-            <a href="/publication/2025-03-01-egocentric-vision-language-model">Project Page</a>
+            <a href="/publication/2025-03-01-egocentric-assistant">Project Page</a>
         </div>
     </div>
 </div>
@@ -684,7 +684,7 @@ redirect_from:
         <p class="publication-authors"><b>Mingfang Zhang</b>, Ryo Yonetani, Yifei Huang, Liangyang Ouyang, Ruicong Liu, Yoichi Sato</p>
         <p class="publication-venue">Arxiv preprint, 2025</p>
         <div class="publication-links">
-            <a href="/publication/2025-05-01-egocentric-action-aware-inertial-localization">Project Page</a>
+            <a href="/publication/2025-05-01-egocentric-localization">Project Page</a>
         </div>
     </div>
 </div>
@@ -702,7 +702,7 @@ redirect_from:
         <p class="publication-authors">Zhehao Zhu, Yifei Huang, <b>Mingfang Zhang</b>, Liangyang Ouyang, Yoichi Sato</p>
         <p class="publication-venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025</p>
         <div class="publication-links">
-            <a href="/publication/2025-01-01-prompt-augmented-boundary-attentive-learning">Project Page</a>
+            <a href="/publication/2025-05-01-prompt-grounding">Project Page</a>
         </div>
     </div>
 </div>
@@ -720,7 +720,7 @@ redirect_from:
         <p class="publication-authors">Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato</p>
         <p class="publication-venue">International Conference on Learning Representations (ICLR), 2025</p>
         <div class="publication-links">
-            <a href="/publication/2025-02-01-simhand">Project Page</a>
+            <a href="/publication/2025-02-01-simhand-handpose">Project Page</a>
         </div>
     </div>
 </div>
@@ -738,7 +738,7 @@ redirect_from:
         <p class="publication-authors"><b>Mingfang Zhang</b>, Yifei Huang, Ruicong Liu, Yoichi Sato</p>
         <p class="publication-venue">European Conference on Computer Vision (ECCV), 2024</p>
         <div class="publication-links">
-            <a href="/publication/2024-07-01-masked-video-imu-autoencoder">Project Page</a>
+            <a href="/publication/2024-07-01-masked-recognition">Project Page</a>
         </div>
     </div>
 </div>
@@ -756,7 +756,7 @@ redirect_from:
         <p class="publication-authors">(* co-first author) Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei, Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao</p>
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
         <div class="publication-links">
-            <a href="/publication/2024-03-01-egoexolearn">Project Page</a>
+            <a href="/publication/2024-03-01-egoexolearn-procedural">Project Page</a>
         </div>
     </div>
 </div>
@@ -774,7 +774,7 @@ redirect_from:
         <p class="publication-authors">Ruicong Liu, Takehiko Ohkawa, <b>Mingfang Zhang</b>, Yoichi Sato</p>
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
         <div class="publication-links">
-            <a href="/publication/2024-03-01-s2dhand">Project Page</a>
+            <a href="/publication/2024-03-01-single-handpose">Project Page</a>
         </div>
     </div>
 </div>
@@ -810,7 +810,7 @@ redirect_from:
         <p class="publication-authors"><b>Mingfang Zhang</b>, Yunfei Liu, Feng Lu</p>
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022</p>
         <div class="publication-links">
-            <a href="/publication/2022-04-01-gazeonce">Project Page</a>
+            <a href="/publication/2022-04-01-gazeonce-gaze">Project Page</a>
         </div>
     </div>
 </div>
@@ -828,7 +828,7 @@ redirect_from:
         <p class="publication-authors"><b>Mingfang Zhang</b>, Yinqiang Zheng, Feng Lu</p>
         <p class="publication-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</p>
         <div class="publication-links">
-            <a href="/publication/2021-12-01-optical-flow-dark">Project Page</a>
+            <a href="/publication/2021-12-01-optical-dark">Project Page</a>
         </div>
     </div>
 </div>
@@ -846,7 +846,7 @@ redirect_from:
         <p class="publication-authors">(*co-first author) Yinqiang Zheng*, <b>Mingfang Zhang</b>*, Feng Lu</p>
         <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020</p>
         <div class="publication-links">
-            <a href="/publication/2020-04-01-optical-flow-dark">Project Page</a>
+            <a href="/publication/2020-04-01-optical-dark">Project Page</a>
         </div>
     </div>
 </div>
