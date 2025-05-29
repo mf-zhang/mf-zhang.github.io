@@ -399,3 +399,57 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.page__tags {
+  margin: 1em 0;
+  
+  .page__tag {
+    display: inline-block;
+    margin: 0.2em 0.3em 0.2em 0;
+    padding: 0.3em 0.6em;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    color: #666;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background-color: #e1e1e1;
+      color: #333;
+      text-decoration: none;
+    }
+  }
+}
+
+.tag-list {
+  .archive__subtitle {
+    margin: 1.5em 0 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #e1e1e1;
+  }
+  
+  .archive__item {
+    margin-bottom: 1em;
+    
+    .archive__item-title {
+      margin: 0;
+      font-size: 1.1em;
+      
+      a {
+        color: #2c3e50;
+        text-decoration: none;
+        
+        &:hover {
+          color: #3498db;
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    .archive__item-excerpt {
+      margin: 0.5em 0 0;
+      font-size: 0.9em;
+      color: #666;
+    }
+  }
+}
