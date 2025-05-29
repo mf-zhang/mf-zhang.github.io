@@ -3,7 +3,7 @@ latest_cv_path: /files/Mingfang_Zhang_CV_202505.pdf
 
 main:
   - title: "Publications"
-    url: /publications/
+    url: https://scholar.google.com/citations?user=KnQO5GcAAAAJ&hl=en
 
   - title: "CV"
     url: /files/Mingfang_Zhang_CV_202505.pdf 
