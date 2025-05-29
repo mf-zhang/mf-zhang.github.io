@@ -70,7 +70,8 @@ author_profile: true
     {% if tag %}
       <div class="tag-block">
         <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-        {% for post in site.publications %}
+        {% assign sorted_posts = site.publications | sort: 'date' | reverse %}
+        {% for post in sorted_posts %}
           {% if post.tags contains tag %}
             <div class="archive__item">
               <h3 class="archive__item-title" itemprop="headline">

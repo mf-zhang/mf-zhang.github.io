@@ -423,9 +423,46 @@ redirect_from:
 
 <div class="section-title">Publications</div>
 
-<span class="category-a">[a]</span> <a href="/tags/#a-video-and-multi-view-understanding">video and multi-view understanding</a> <br>
-<span class="category-b">[b]</span> <a href="/tags/#b-vision-language-multimodal-models">vision-language multimodal models</a> <br>
-<span class="category-c">[c]</span> <a href="/tags/#c-human-body-perception">human body perception</a> <br>
+<div class="category-links">
+    <div class="category-item">
+        <span class="category-a">[a]</span>
+        <a href="/tags/#a-video-and-multi-view-understanding">Video and Multi-view Understanding</a>
+    </div>
+    <div class="category-item">
+        <span class="category-b">[b]</span>
+        <a href="/tags/#b-vision-language-multimodal-models">Vision-Language Multimodal Models</a>
+    </div>
+    <div class="category-item">
+        <span class="category-c">[c]</span>
+        <a href="/tags/#c-human-body-perception">Human Body Perception</a>
+    </div>
+</div>
+
+<style>
+.category-links {
+    margin: 1em 0;
+}
+
+.category-item {
+    margin: 0.5em 0;
+    line-height: 1.6;
+}
+
+.category-item a {
+    color: #2c3e50;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.category-item a:hover {
+    color: #3498db;
+}
+
+.category-a, .category-b, .category-c {
+    font-weight: 600;
+    margin-right: 0.5em;
+}
+</style>
 
 
 
