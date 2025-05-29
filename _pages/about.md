@@ -17,9 +17,17 @@ redirect_from:
     transition: transform 0.2s ease-in-out;
 }
 
-.intro-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+@media (max-width: 768px) {
+    .intro-card {
+        margin: 12px 0;
+        padding: 16px;
+    }
+    
+    .intro-text {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin: 1em 0;
+    }
 }
 
 .intro-text {
@@ -59,9 +67,33 @@ redirect_from:
     transition: transform 0.2s ease-in-out;
 }
 
-.education-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+@media (max-width: 768px) {
+    .education-card {
+        padding: 10px;
+        margin: 6px 0;
+    }
+    
+    .education-icon {
+        flex: 0 0 24px;
+        margin-right: 8px;
+    }
+    
+    .education-icon img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .education-school {
+        font-size: 0.95em;
+    }
+    
+    .education-degree {
+        font-size: 0.9em;
+    }
+    
+    .education-date {
+        font-size: 0.8em;
+    }
 }
 
 .education-icon {
@@ -171,9 +203,34 @@ redirect_from:
     transition: transform 0.2s ease-in-out;
 }
 
-.experience-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+@media (max-width: 768px) {
+    .experience-card {
+        padding: 10px;
+        margin: 6px 0;
+    }
+    
+    .experience-item {
+        font-size: 0.9em;
+        gap: 4px;
+    }
+    
+    .company-logo {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .company-name {
+        min-width: 100px;
+        font-size: 0.95em;
+    }
+    
+    .team-name {
+        font-size: 0.9em;
+    }
+    
+    .experience-date {
+        font-size: 0.8em;
+    }
 }
 
 .experience-item {
@@ -238,40 +295,6 @@ redirect_from:
     flex-shrink: 0;
 }
 
-@media (max-width: 768px) {
-    .experience-item {
-        flex-direction: row;
-        flex-wrap: nowrap;
-        gap: 4px;
-    }
-    
-    .experience-company {
-        width: auto;
-        align-items: center;
-        flex: 1;
-        gap: 4px;
-    }
-    
-    .experience-content {
-        margin-left: 0;
-        width: auto;
-    }
-    
-    .company-name {
-        min-width: 100px;
-    }
-    
-    .team-name {
-        margin-top: 4px;
-        display: block;
-    }
-
-    .experience-date {
-        margin-left: 12px;
-        margin-top: 0;
-    }
-}
-
 .awards-card {
     background: #ffffff;
     border-radius: 8px;
@@ -281,9 +304,24 @@ redirect_from:
     transition: transform 0.2s ease-in-out;
 }
 
-.awards-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+@media (max-width: 768px) {
+    .awards-card {
+        padding: 10px;
+        margin: 6px 0;
+    }
+    
+    .award-item {
+        font-size: 0.9em;
+        margin-bottom: 6px;
+    }
+    
+    .award-icon {
+        font-size: 1.1em;
+    }
+    
+    .award-date {
+        font-size: 0.8em;
+    }
 }
 
 .award-item {
@@ -627,31 +665,117 @@ redirect_from:
 
 @media (max-width: 768px) {
     .publication-card {
-        padding: 16px;
-        margin: 16px 0;
-        align-items: flex-start;
+        padding: 12px;
+        margin: 12px 0;
     }
     
     .publication-image {
         flex: 0 0 100%;
         margin-right: 0;
-        margin-bottom: 16px;
+        margin-bottom: 12px;
     }
     
-    .publication-content {
-        margin-left: 0;
+    .publication-image img {
+        max-width: 100%;
     }
     
     .publication-title {
         font-size: 1.1em;
+        line-height: 1.3;
     }
     
     .publication-authors {
-        font-size: 0.95em;
+        font-size: 0.9em;
+        line-height: 1.4;
     }
     
     .publication-venue {
+        font-size: 0.85em;
+    }
+    
+    .publication-links {
+        gap: 8px;
+    }
+    
+    .publication-links a {
+        padding: 4px 8px;
+        font-size: 0.85em;
+    }
+    
+    .publication-tags {
+        gap: 6px;
+        margin-top: 8px;
+    }
+    
+    .publication-tag {
+        padding: 3px 6px;
+        font-size: 0.8em;
+    }
+    
+    .publication-number {
+        bottom: 12px;
+        right: 12px;
+        font-size: 0.85em;
+    }
+}
+
+/* 添加触摸设备优化 */
+@media (hover: none) {
+    .intro-card:hover,
+    .education-card:hover,
+    .experience-card:hover,
+    .awards-card:hover,
+    .publication-card:hover {
+        transform: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .publication-links a:active {
+        background: rgba(52, 152, 219, 0.2);
+    }
+    
+    .publication-tag:active {
+        background: rgba(52, 152, 219, 0.15);
+    }
+}
+
+/* 优化字体大小和间距 */
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.3em;
+        margin: 1em 0 0.2em 0;
+    }
+    
+    .intro-text {
+        font-size: 1em;
+    }
+    
+    .education-school {
         font-size: 0.9em;
+    }
+    
+    .education-degree {
+        font-size: 0.85em;
+    }
+    
+    .company-name {
+        font-size: 0.9em;
+    }
+    
+    .team-name {
+        font-size: 0.85em;
+    }
+    
+    .award-item {
+        font-size: 0.85em;
+    }
+    
+    .publication-title {
+        font-size: 1em;
+    }
+    
+    .publication-authors {
+        font-size: 0.85em;
     }
 }
 </style>
