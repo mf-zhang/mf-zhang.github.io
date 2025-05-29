@@ -252,30 +252,34 @@
    ========================================================================== */
 
 .page__taxonomy {
-  .sep {
-    display: none;
-  }
-
-  strong {
-    margin-right: 10px;
-  }
-}
-
-.page__taxonomy-item {
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
-  text-decoration: none;
-  border: 1px solid $light-gray;
-  border-radius: $border-radius;
-
-  &:hover {
+  margin: 1em 0;
+  
+  .page__taxonomy-item {
+    display: inline-block;
+    margin: 0.2em 0.3em 0.2em 0;
+    padding: 0.3em 0.6em;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    color: #666;
     text-decoration: none;
-    color: $link-color-hover;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background-color: #e1e1e1;
+      color: #333;
+      text-decoration: none;
+    }
   }
 }
 
+// Add scroll margin to tag headings
+.archive__subtitle {
+  scroll-margin-top: 50px; // Default for mobile
+
+  @include breakpoint($medium) {
+    scroll-margin-top: 80px; // For desktop
+  }
+}
 
 /*
    Comments
