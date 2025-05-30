@@ -1,5 +1,5 @@
 ---
-title: "Egocentric Action-aware Inertial Localization in Point Clouds"
+title: "Egocentric Inertial Localization with Vision-Language Informed Action Cues"
 collection: publications
 permalink: /publication/2025-05-01-egocentric-localization
 venue: 'Arxiv preprint'
