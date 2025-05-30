@@ -59,6 +59,19 @@ author_profile: true
 }
 </style>
 
+<div class="tag-directory" style="margin-bottom: 2em; padding: 1em; background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+  <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 0.5em; margin-bottom: 1em;">标签目录</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 1em;">
+    {% for tag in tags %}
+      {% if tag %}
+        <a href="#{{ tag | slugify }}" style="color: #3498db; text-decoration: none; padding: 0.5em 1em; background: white; border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
+          {{ tag }}
+        </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
 {% assign all_tags = "" | split: "" %}
 {% for post in site.publications %}
   {% assign all_tags = all_tags | concat: post.tags %}
