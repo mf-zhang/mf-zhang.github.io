@@ -541,7 +541,7 @@ redirect_from:
 
 .publication-title {
     color: #2c3e50;
-    font-size: 1.25em;
+    font-size: 1.1em;
     font-weight: 600;
     line-height: 1.4;
     margin: 0;
@@ -785,7 +785,7 @@ redirect_from:
                 <a href="https://arxiv.org/pdf/2503.04250">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">Arxiv 2025</span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
+                <span class="num1">Arxiv 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
             </div>
         </div>
     </div>
@@ -804,7 +804,7 @@ redirect_from:
                 <a href="https://arxiv.org/abs/2505.14346">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">Arxiv 2025</span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b2]</span></a>
+                <span class="num1">Arxiv 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b2]</span></a>
             </div>
         </div>
     </div>
@@ -823,7 +823,7 @@ redirect_from:
                 <a href="https://ieeexplore.ieee.org/document/11015819">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">TCSVT 2025</span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b1]</span></a>
+                <span class="num1">TCSVT 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b1]</span></a>
             </div>
         </div>
     </div>
@@ -842,7 +842,7 @@ redirect_from:
                 <a href="https://arxiv.org/pdf/2502.15251">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">ICLR 2025</span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c3]</span></a>
+                <span class="num1">ICLR 2025</span> <a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c3]</span></a>
             </div>
         </div>
     </div>
@@ -861,7 +861,7 @@ redirect_from:
                 <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">ECCV 2024</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a5]</span></a>
+                <span class="num1">ECCV 2024</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a5]</span></a>
             </div>
         </div>
     </div>
@@ -880,7 +880,7 @@ redirect_from:
                 <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">CVPR 2024</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a4]</span></a>
+                <span class="num1">CVPR 2024</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a4]</span></a>
             </div>
         </div>
     </div>
@@ -899,7 +899,7 @@ redirect_from:
                 <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">CVPR 2024</span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c2]</span></a>
+                <span class="num1">CVPR 2024</span> <a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c2]</span></a>
             </div>
         </div>
     </div>
@@ -918,7 +918,7 @@ redirect_from:
                 <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">CVPR 2023</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a3]</span></a>
+                <span class="num1">CVPR 2023</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a3]</span></a>
             </div>
         </div>
     </div>
@@ -937,7 +937,7 @@ redirect_from:
                 <a href="https://arxiv.org/abs/2204.09480">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">CVPR 2022</span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c1]</span></a>
+                <span class="num1">CVPR 2022</span> <a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c1]</span></a>
             </div>
         </div>
     </div>
@@ -956,7 +956,7 @@ redirect_from:
                 <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">TPAMI 2021</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a2]</span></a>
+                <span class="num1">TPAMI 2021</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a2]</span></a>
             </div>
         </div>
     </div>
@@ -975,7 +975,7 @@ redirect_from:
                 <a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Optical_Flow_in_the_Dark_CVPR_2020_paper.pdf">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">CVPR 2020</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a1]</span></a>
+                <span class="num1">CVPR 2020</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a1]</span></a>
             </div>
         </div>
     </div>
@@ -1017,6 +1017,7 @@ redirect_from:
 
 .publication-number .num2 {
     color: #e74c3c;
+    margin-left: 8px;
 }
 
 .publication-number .num2.category-a {
