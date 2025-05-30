@@ -501,12 +501,6 @@ redirect_from:
     transform: translateY(0);
 }
 
-.publication-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
-    border-color: rgba(0, 0, 0, 0.1);
-}
-
 .publication-image {
     flex: 0 0 280px;
     text-align: center;
@@ -523,11 +517,6 @@ redirect_from:
     height: auto;
     object-fit: contain;
     border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.publication-image img:hover {
-    transform: scale(1.02);
 }
 
 .publication-content {
