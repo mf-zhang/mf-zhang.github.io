@@ -66,7 +66,7 @@ author_profile: true
 {% assign tags = all_tags | uniq | sort %}
 
 <div class="tag-directory" style="margin-bottom: 2em; padding: 1em; background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-  <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 0.5em; margin-bottom: 1em;">标签目录</h2>
+  <h2 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 0.5em; margin-bottom: 1em;">Tags</h2>
   <div style="display: flex; flex-wrap: wrap; gap: 1em;">
     {% for tag in tags %}
       {% if tag %}
