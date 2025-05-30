@@ -37,12 +37,9 @@ redirect_from:
     margin: 1.5em 0;
     font-weight: 400;
     text-align: left;
-}
-
-@media (min-width: 768px) {
-    .intro-text {
-        text-align: justify;
-    }
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
 }
 
 .intro-text a {
