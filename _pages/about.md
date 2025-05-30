@@ -162,33 +162,42 @@ redirect_from:
 
 <div class="section-title">Education</div>
 
-<div class="education-card">
-    <div class="education-icon">
-        <img src="../images/logo/logo_ut.png" alt="University of Tokyo Logo" loading="lazy"/>
-    </div>
-    <div class="education-content">
-        <div class="education-school">The University of Tokyo</div>
-        <div class="education-degree">
-            <span>Ph.D. in Information Science</span>
-            <span class="education-date">2026.3</span>
+<div class="experience-card">
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_ut.png" alt="University of Tokyo Logo" class="company-logo" loading="lazy"/>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">Ph.D. in Information Science</span>
+                    <span class="team-name">The University of Tokyo</span>
+                </div>
+            </div>
         </div>
-        <div class="education-degree">
-            <span>M.Sc. in Information Science</span>
-            <span class="education-date">2023.3</span>
-        </div>
+        <span class="experience-date">2026.3</span>
     </div>
-</div>
-
-<div class="education-card">
-    <div class="education-icon">
-        <img src="../images/logo/logo_nju.png" alt="Nanjing University Logo" loading="lazy"/>
-    </div>
-    <div class="education-content">
-        <div class="education-school">Nanjing University</div>
-        <div class="education-degree">
-            <span>B.Sc. in Computer Science</span>
-            <span class="education-date">2020.7</span>
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_ut.png" alt="University of Tokyo Logo" class="company-logo" loading="lazy"/>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">M.Sc. in Information Science</span>
+                    <span class="team-name">The University of Tokyo</span>
+                </div>
+            </div>
         </div>
+        <span class="experience-date">2023.3</span>
+    </div>
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_nju.png" alt="Nanjing University Logo" class="company-logo" loading="lazy"/>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">B.Sc. in Computer Science</span>
+                    <span class="team-name">Nanjing University</span>
+                </div>
+            </div>
+        </div>
+        <span class="experience-date">2020.7</span>
     </div>
 </div>
 
