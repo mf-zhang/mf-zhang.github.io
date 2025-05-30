@@ -32,11 +32,17 @@ redirect_from:
 
 .intro-text {
     color: var(--global-text-color);
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.8;
     margin: 1.5em 0;
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+    .intro-text {
+        text-align: justify;
+    }
 }
 
 .intro-text a {
