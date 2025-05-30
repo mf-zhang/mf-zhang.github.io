@@ -36,6 +36,7 @@ redirect_from:
     line-height: 1.8;
     margin: 1.5em 0;
     font-weight: 400;
+    text-align: justify;
 }
 
 .intro-text a {
