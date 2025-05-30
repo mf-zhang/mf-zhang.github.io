@@ -52,7 +52,7 @@ redirect_from:
 </style>
 
 <p class="intro-text">
-    I'm a PhD student at the University of Tokyo, supervised by Prof. <a href="https://sites.google.com/ut-vision.org/ysato/">Yoichi Sato</a>. I focus on computer vision and human activity understanding, specifically involving video and multi-view understanding, vision-language multimodal models, and human body perception.
+    I'm a PhD student at the University of Tokyo, supervised by Prof. <a href="https://sites.google.com/ut-vision.org/ysato/">Yoichi Sato</a>. I focus on computer vision and human activity understanding, specifically involving <a href="/tags/#a-video-and-multi-view-understanding">video and multi-view understanding</a>, <a href="/tags/#b-vision-language-multimodal-models">vision-language multimodal models</a>, and <a href="/tags/#c-human-body-perception">human body perception</a>.
 </p>
 
 <style>
