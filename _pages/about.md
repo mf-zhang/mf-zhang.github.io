@@ -536,7 +536,7 @@ redirect_from:
     margin-left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    gap: 12px;
 }
 
 .publication-title {
@@ -544,23 +544,21 @@ redirect_from:
     font-size: 1.25em;
     font-weight: 600;
     line-height: 1.4;
-    margin-bottom: 6px;
+    margin: 0;
 }
 
 .publication-authors {
     color: #34495e;
     font-size: 1em;
     line-height: 1.6;
-    margin-bottom: 6px;
+    margin: 0;
 }
 
-.publication-venue {
-    color: #7f8c8d;
-    font-size: 0.95em;
-    margin-bottom: 12px;
-    font-weight: 500;
+.publication-bottom {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 4px;
 }
 
 .publication-links {
@@ -569,22 +567,13 @@ redirect_from:
     flex-wrap: wrap;
 }
 
-.publication-links a {
-    display: inline-flex;
-    align-items: center;
-    padding: 6px 12px;
-    color: #3498db;
-    text-decoration: none;
-    border-radius: 6px;
+.publication-number {
     font-size: 0.9em;
-    font-weight: 500;
-    background: rgba(52, 152, 219, 0.1);
-    transition: all 0.2s ease;
-}
-
-.publication-links a:hover {
-    background: rgba(52, 152, 219, 0.2);
-    transform: translateY(-1px);
+    font-weight: 600;
+    color: #666;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
 }
 
 .publication-tags {
@@ -647,35 +636,6 @@ redirect_from:
     transform: translateY(20px);
 }
 
-.publication-number {
-    position: absolute;
-    bottom: 24px;
-    right: 24px;
-    font-size: 0.9em;
-    font-weight: 600;
-    color: #666;
-}
-
-.publication-number .num1 {
-    color: #000000;
-}
-
-.publication-number .num2 {
-    color: #e74c3c;
-}
-
-.publication-number .num2.category-a {
-    color: #3498db;
-}
-
-.publication-number .num2.category-b {
-    color: #2ecc71;
-}
-
-.publication-number .num2.category-c {
-    color: #e67e22;
-}
-
 .category-tag {
     display: inline-block;
     padding: 2px 6px;
@@ -716,6 +676,10 @@ redirect_from:
         max-width: 100%;
     }
     
+    .publication-content {
+        gap: 8px;
+    }
+    
     .publication-title {
         font-size: 1.1em;
         line-height: 1.3;
@@ -726,8 +690,10 @@ redirect_from:
         line-height: 1.4;
     }
     
-    .publication-venue {
-        font-size: 0.85em;
+    .publication-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
     }
     
     .publication-links {
@@ -739,19 +705,8 @@ redirect_from:
         font-size: 0.85em;
     }
     
-    .publication-tags {
-        gap: 6px;
-        margin-top: 8px;
-    }
-    
-    .publication-tag {
-        padding: 3px 6px;
-        font-size: 0.8em;
-    }
-    
     .publication-number {
-        bottom: 12px;
-        right: 12px;
+        margin-left: 0;
         font-size: 0.85em;
     }
 }
@@ -818,210 +773,210 @@ redirect_from:
 </style>
 
 <div class="publication-card">
-    <div class="venue-ribbon">Arxiv</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">An Egocentric Vision-Language Model based Portable Real-time Smart Assistant</h3>
         <p class="publication-authors">Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, <b>Mingfang Zhang</b>, Lijin Yang, ..., Limin Wang</p>
-        <p class="publication-venue">Arxiv preprint, 2025</p>
-        <div class="publication-links">
-            <a href="https://github.com/OpenGVLab/vinci">Project Page</a>
-            <a href="https://arxiv.org/pdf/2503.04250">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="https://github.com/OpenGVLab/vinci">Project Page</a>
+                <a href="https://arxiv.org/pdf/2503.04250">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">Arxiv 2025</span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">Arxiv</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b2]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Egocentric Action-aware Inertial Localization in Point Clouds</h3>
         <p class="publication-authors"><b>Mingfang Zhang</b>, Ryo Yonetani, Yifei Huang, Liangyang Ouyang, Ruicong Liu, Yoichi Sato</p>
-        <p class="publication-venue">Arxiv preprint, 2025</p>
-        <div class="publication-links">
-            <a href="/publication/2025-05-01-egocentric-localization">Project Page</a>
-            <a href="https://arxiv.org/abs/2505.14346">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="/publication/2025-05-01-egocentric-localization">Project Page</a>
+                <a href="https://arxiv.org/abs/2505.14346">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">Arxiv 2025</span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b2]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">TCSVT</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b1]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Prompt-augmented Boundary Attentive Learning for Weakly Supervised Temporal Sentence Grounding</h3>
         <p class="publication-authors">Zhehao Zhu, Yifei Huang, <b>Mingfang Zhang</b>, Liangyang Ouyang, Yoichi Sato</p>
-        <p class="publication-venue">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2025</p>
-        <div class="publication-links">
-            <!-- <a href="/publication/2025-05-01-prompt-grounding">Project Page</a> -->
-            <a href="https://ieeexplore.ieee.org/document/11015819">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <!-- <a href="/publication/2025-05-01-prompt-grounding">Project Page</a> -->
+                <a href="https://ieeexplore.ieee.org/document/11015819">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">TCSVT 2025</span><a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b1]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">ICLR</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c3]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training</h3>
         <p class="publication-authors">Nie Lin, Takehiko Ohkawa, Yifei Huang, <b>Mingfang Zhang</b>, Minjie Cai, Ming Li, Ryosuke Furuta, Yoichi Sato</p>
-        <p class="publication-venue">International Conference on Learning Representations (ICLR), 2025</p>
-        <div class="publication-links">
-            <a href="https://tkhkaeio.github.io/projects/25-simhand/index.html">Project Page</a>
-            <a href="https://arxiv.org/pdf/2502.15251">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="https://tkhkaeio.github.io/projects/25-simhand/index.html">Project Page</a>
+                <a href="https://arxiv.org/pdf/2502.15251">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">ICLR 2025</span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c3]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">ECCV</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a5]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
         <p class="publication-authors"><b>Mingfang Zhang</b>, Yifei Huang, Ruicong Liu, Yoichi Sato</p>
-        <p class="publication-venue">European Conference on Computer Vision (ECCV), 2024</p>
-        <div class="publication-links">
-            <a href="/publication/2024-07-01-masked-recognition">Project Page</a>
-            <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="/publication/2024-07-01-masked-recognition">Project Page</a>
+                <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">ECCV 2024</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a5]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">CVPR</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a4]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
         <p class="publication-authors">(* co-first author) Yifei Huang* , Guo Chen*, Jilan Xu*, <b>Mingfang Zhang</b>*, Lijin Yang, Baoqi Pei, Hongjie Zhang, Lu Dong, Yali Wang, Limin Wang, Yu Qiao</p>
-        <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
-        <div class="publication-links">
-            <a href="https://github.com/OpenGVLab/EgoExoLearn">Project Page</a>
-            <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="https://github.com/OpenGVLab/EgoExoLearn">Project Page</a>
+                <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">CVPR 2024</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a4]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">CVPR</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c2]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr24_hand.jpeg" alt="CVPR 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Single-to-Dual-View Adaptation for Egocentric 3D Hand Pose Estimation</h3>
         <p class="publication-authors">Ruicong Liu, Takehiko Ohkawa, <b>Mingfang Zhang</b>, Yoichi Sato</p>
-        <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
-        <div class="publication-links">
-            <a href="https://github.com/ut-vision/S2DHand">Project Page</a>
-            <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="https://github.com/ut-vision/S2DHand">Project Page</a>
+                <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">CVPR 2024</span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c2]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">CVPR</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a3]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Structural Multiplane Image: Bridging Neural View Synthesis and 3D Reconstruction</h3>
         <p class="publication-authors"><b>Mingfang Zhang</b>, Jinglu Wang, Xiao Li, Yifei Huang, Yoichi Sato, Yan Lu</p>
-        <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2023</p>
-        <div class="publication-links">
-            <a href="/publication/2023-03-01-structural-mpi">Project Page</a>
-            <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="/publication/2023-03-01-structural-mpi">Project Page</a>
+                <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">CVPR 2023</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a3]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">CVPR</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c1]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr22_gaze.jpeg" alt="CVPR 2022" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">GazeOnce: Real-Time Multi-Person Gaze Estimation</h3>
         <p class="publication-authors"><b>Mingfang Zhang</b>, Yunfei Liu, Feng Lu</p>
-        <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022</p>
-        <div class="publication-links">
-            <a href="/publication/2022-04-01-gazeonce-gaze">Project Page</a>
-            <a href="https://arxiv.org/abs/2204.09480">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="/publication/2022-04-01-gazeonce-gaze">Project Page</a>
+                <a href="https://arxiv.org/abs/2204.09480">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">CVPR 2022</span><a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c1]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">TPAMI</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a2]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Optical Flow in the Dark</h3>
         <p class="publication-authors"><b>Mingfang Zhang</b>, Yinqiang Zheng, Feng Lu</p>
-        <p class="publication-venue">IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021</p>
-        <div class="publication-links">
-            <a href="/publication/2021-12-01-optical-dark">Project Page</a>
-            <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="/publication/2021-12-01-optical-dark">Project Page</a>
+                <a href="https://ieeexplore.ieee.org/document/9626625">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">TPAMI 2021</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a2]</span></a>
+            </div>
         </div>
     </div>
 </div>
 
 <div class="publication-card">
-    <div class="venue-ribbon">CVPR</div>
-    <div class="publication-number">
-        #<span class="num1"></span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a1]</span></a>
-    </div>
     <div class="publication-image">
         <img src="../images/papers/cvpr20_dark.jpeg" alt="CVPR 2020" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Optical Flow in the Dark</h3>
         <p class="publication-authors">(*co-first author) Yinqiang Zheng*, <b>Mingfang Zhang</b>*, Feng Lu</p>
-        <p class="publication-venue">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020</p>
-        <div class="publication-links">
-            <a href="/publication/2020-04-01-optical-dark">Project Page</a>
-            <a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Optical_Flow_in_the_Dark_CVPR_2020_paper.pdf">Paper</a>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="/publication/2020-04-01-optical-dark">Project Page</a>
+                <a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Optical_Flow_in_the_Dark_CVPR_2020_paper.pdf">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">CVPR 2020</span><a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a1]</span></a>
+            </div>
         </div>
     </div>
 </div>
@@ -1036,3 +991,43 @@ redirect_from:
 
   gtag('config', 'G-H5PY7PJR9Q');
 </script>
+
+<style>
+.publication-links a {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 12px;
+    color: #3498db;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-weight: 500;
+    background: rgba(52, 152, 219, 0.1);
+    transition: all 0.2s ease;
+}
+
+.publication-links a:hover {
+    background: rgba(52, 152, 219, 0.2);
+    transform: translateY(-1px);
+}
+
+.publication-number .num1 {
+    color: #000000;
+}
+
+.publication-number .num2 {
+    color: #e74c3c;
+}
+
+.publication-number .num2.category-a {
+    color: #3498db;
+}
+
+.publication-number .num2.category-b {
+    color: #2ecc71;
+}
+
+.publication-number .num2.category-c {
+    color: #e67e22;
+}
+</style>
