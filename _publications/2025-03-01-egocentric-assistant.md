@@ -2,7 +2,7 @@
 title: "An Egocentric Vision-Language Model based Portable Real-time Smart Assistant"
 collection: publications
 permalink: /publication/2025-03-01-egocentric-assistant
-venue: 'Arxiv preprint'
+venue: 'ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)'
 paperurl: 'https://arxiv.org/pdf/2503.04250'
 codeurl: 'https://github.com/OpenGVLab/vinci'
 authors: 'Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, Mingfang Zhang, Lijin Yang, ..., Limin Wang'
