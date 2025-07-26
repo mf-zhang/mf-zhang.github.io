@@ -1,12 +1,12 @@
 # main links links
-latest_cv_path: /files/Mingfang_Zhang_CV_202505.pdf 
+latest_cv_path: /files/Mingfang_Zhang_CV_202507.pdf 
 
 main:
   - title: "Publications"
     url: /tags/
 
   - title: "CV"
-    url: /files/Mingfang_Zhang_CV_202505.pdf 
+    url: /files/Mingfang_Zhang_CV_202507.pdf 
 
   # - title: "Teaching"
   #   url: /teaching/    

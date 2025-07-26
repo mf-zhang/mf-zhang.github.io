@@ -367,6 +367,18 @@ redirect_from:
 <div class="section-title">Research Experience</div>
 
 <div class="experience-card">
+<div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_woven.png" alt="Woven Logo" class="company-logo" loading="lazy"/>
+            <div class="experience-content">
+                <div>
+                    <span class="company-name">Intern at Woven by Toyota</span>
+                    <span class="team-name">ML Modeling Team</span>
+                </div>
+            </div>
+        </div>
+        <span class="experience-date">2025</span>
+    </div>
     <div class="experience-item">
         <div class="experience-company">
             <img src="../images/logo/logo_ca.png" alt="CyberAgent Logo" class="company-logo" loading="lazy"/>
@@ -802,7 +814,7 @@ redirect_from:
                 <a href="https://arxiv.org/pdf/2503.04250">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">Arxiv 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
+                <span class="num1">IMWUT 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
             </div>
         </div>
     </div>
@@ -821,7 +833,7 @@ redirect_from:
                 <a href="https://arxiv.org/abs/2505.14346">Paper</a>
             </div>
             <div class="publication-number">
-                <span class="num1">Arxiv 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b2]</span></a>
+                <span class="num1">ICCV 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b2]</span></a>
             </div>
         </div>
     </div>

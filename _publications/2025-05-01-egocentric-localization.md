@@ -2,7 +2,7 @@
 title: "Egocentric Inertial Localization with Vision-Language Informed Action Cues"
 collection: publications
 permalink: /publication/2025-05-01-egocentric-localization
-venue: 'Arxiv preprint'
+venue: 'ICCV 2025'
 paperurl: 'https://arxiv.org/abs/2505.14346'
 codeurl: 'https://github.com/mf-zhang/Ego-Inertial-Localization'
 authors: 'Mingfang Zhang, Ryo Yonetani, Yifei Huang, Liangyang Ouyang, Ruicong Liu, Yoichi Sato'
