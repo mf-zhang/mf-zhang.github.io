@@ -1,5 +1,5 @@
 ---
-title: "Egocentric Inertial Localization with Vision-Language Informed Action Cues"
+title: "Egocentric Action-aware Inertial Localization in Point Clouds with Vision-Language Guidance"
 collection: publications
 permalink: /publication/2025-05-01-egocentric-localization
 venue: 'International Conference on Computer Vision (ICCV)'

@@ -825,7 +825,7 @@ redirect_from:
         <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
-        <h3 class="publication-title">Egocentric Inertial Localization with Vision-Language Informed Action Cues</h3>
+        <h3 class="publication-title">Egocentric Action-aware Inertial Localization in Point Clouds with Vision-Language Guidance</h3>
         <p class="publication-authors"><b>Mingfang Zhang</b>, Ryo Yonetani, Yifei Huang, Liangyang Ouyang, Ruicong Liu, Yoichi Sato</p>
         <div class="publication-bottom">
             <div class="publication-links">
