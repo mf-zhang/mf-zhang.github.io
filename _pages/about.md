@@ -806,8 +806,8 @@ redirect_from:
         <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
-        <h3 class="publication-title">An Egocentric Vision-Language Model based Portable Real-time Smart Assistant</h3>
-        <p class="publication-authors">Yifei Huang, Jilan Xu, Baoqi Pei, Yuping He, Guo Chen, <b>Mingfang Zhang</b>, Lijin Yang, ..., Limin Wang</p>
+        <h3 class="publication-title">Vinci: A Real-time Smart Assistant Based on Egocentric Vision-language Model for Portable Devices</h3>
+        <p class="publication-authors">Yifei Huang, Jilan Xu, Baoqi Pei, Lijin Yang, <b>Mingfang Zhang</b>, ..., Limin Wang</p>
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="https://github.com/OpenGVLab/vinci">Project Page</a>
