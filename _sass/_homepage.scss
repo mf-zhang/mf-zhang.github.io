@@ -41,7 +41,7 @@ $hp-orange:     #c2621a;
 
   a {
     color: var(--global-theme-color);
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 500;
     transition: color 0.2s ease;
 
@@ -134,8 +134,7 @@ $hp-orange:     #c2621a;
 
   a {
     color: $hp-accent;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+    text-decoration: none;
   }
 }
 
