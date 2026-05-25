@@ -1,6 +1,6 @@
 main:
-  - title: "Publications"
-    url: /tags/
+  # - title: "Publications"
+  #   url: /#top-tier-publications
 
   # - title: "CV"
   #   url: /files/Mingfang_Zhang_CV.pdf

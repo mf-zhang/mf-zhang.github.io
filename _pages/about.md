@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 {% include homepage/intro.html %}
-{% include homepage/education.html %}
+{% include homepage/news.html %}
 {% include homepage/experience.html %}
+{% include homepage/education.html %}
 {% include homepage/awards.html %}
 {% include homepage/publications.html %}

@@ -74,9 +74,12 @@
 
   a {
     text-decoration: underline;
+    text-decoration-color: rgba($text-color, 0.25);
+    text-underline-offset: 3px;
+    color: inherit;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration-color: $text-color;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
