@@ -830,7 +830,7 @@ redirect_from:
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="https://github.com/ut-vision/SocialInteraction">Project Page</a>
-                <a href="https://arxiv.org/pdf/2511.17952">Paper</a>
+                <a href="https://arxiv.org/abs/2511.17952">Paper</a>
             </div>
             <div class="publication-number">
                 <span class="num1">CVPR 2026</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b5]</span></a>
@@ -849,7 +849,7 @@ redirect_from:
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="https://github.com/OpenGVLab/vinci">Project Page</a>
-                <a href="https://arxiv.org/pdf/2503.04250">Paper</a>
+                <a href="https://arxiv.org/abs/2503.04250">Paper</a>
             </div>
             <div class="publication-number">
                 <span class="num1">IMWUT 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b3]</span></a>
@@ -888,7 +888,7 @@ redirect_from:
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="https://tkhkaeio.github.io/projects/25-simhand/index.html">Project Page</a>
-                <a href="https://arxiv.org/pdf/2502.15251">Paper</a>
+                <a href="https://arxiv.org/abs/2502.15251">Paper</a>
             </div>
             <div class="publication-number">
                 <span class="num1">ICLR 2025</span> <a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c3]</span></a>
@@ -907,7 +907,7 @@ redirect_from:
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="/publication/2024-07-01-masked-recognition">Project Page</a>
-                <a href="http://www.arxiv.org/pdf/2407.06628">Paper</a>
+                <a href="https://arxiv.org/abs/2407.06628">Paper</a>
             </div>
             <div class="publication-number">
                 <span class="num1">ECCV 2024</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a5]</span></a>
@@ -926,7 +926,7 @@ redirect_from:
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="https://github.com/OpenGVLab/EgoExoLearn">Project Page</a>
-                <a href="https://arxiv.org/pdf/2403.16182.pdf">Paper</a>
+                <a href="https://arxiv.org/abs/2403.16182">Paper</a>
             </div>
             <div class="publication-number">
                 <span class="num1">CVPR 2024</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a4]</span></a>
@@ -945,7 +945,7 @@ redirect_from:
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="https://github.com/ut-vision/S2DHand">Project Page</a>
-                <a href="https://arxiv.org/pdf/2403.04381.pdf">Paper</a>
+                <a href="https://arxiv.org/abs/2403.04381">Paper</a>
             </div>
             <div class="publication-number">
                 <span class="num1">CVPR 2024</span> <a href="/tags/#c-human-body-perception"><span class="num2 category-c">[c2]</span></a>
@@ -964,7 +964,7 @@ redirect_from:
         <div class="publication-bottom">
             <div class="publication-links">
                 <a href="/publication/2023-03-01-structural-mpi">Project Page</a>
-                <a href="https://arxiv.org/pdf/2303.05937.pdf">Paper</a>
+                <a href="https://arxiv.org/abs/2303.05937">Paper</a>
             </div>
             <div class="publication-number">
                 <span class="num1">CVPR 2023</span> <a href="/tags/#a-video-and-multi-view-understanding"><span class="num2 category-a">[a3]</span></a>
