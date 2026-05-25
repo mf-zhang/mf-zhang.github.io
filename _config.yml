@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Mingfang Zhang (张铭方)"
 title_separator          : "-"
 name                     : &name "Mingfang Zhang"
-description              : &description "Phd Student at UTokyo"
+description              : &description "PhD student at the University of Tokyo. Research interests: egocentric perception, hand/body pose estimation, video understanding, and vision-language models."
 url                      : https://mf-zhang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mf-zhang/mf-zhang.github.io"
@@ -127,20 +127,23 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "/images/zmf-ai-c4.jpeg"  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Mingfang Zhang"
+  links:
+    - "https://scholar.google.com/citations?user=KnQO5GcAAAAJ&hl=en"
+    - "https://github.com/mf-zhang"
+    - "https://www.linkedin.com/in/mingfang-zhang-452263319"
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4"
   google:
-    tracking_id          :
+    tracking_id          : "G-H5PY7PJR9Q"
 
 
 # Reading Files

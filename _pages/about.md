@@ -803,7 +803,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/arxiv25_assist.jpeg" alt="Arxiv 2025" loading="lazy"/>
+        <img src="../images/papers/arxiv25_assist.webp" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Vinci: A Real-time Smart Assistant Based on Egocentric Vision-language Model for Portable Devices</h3>
@@ -822,7 +822,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/arxiv25_eail.jpeg" alt="Arxiv 2025" loading="lazy"/>
+        <img src="../images/papers/arxiv25_eail.webp" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Egocentric Action-aware Inertial Localization in Point Clouds with Vision-Language Guidance</h3>
@@ -841,7 +841,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/tcsvt25_prompt.jpeg" alt="Arxiv 2025" loading="lazy"/>
+        <img src="../images/papers/tcsvt25_prompt.webp" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Prompt-augmented Boundary Attentive Learning for Weakly Supervised Temporal Sentence Grounding</h3>
@@ -860,7 +860,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/iclr25_hand.jpeg" alt="ICLR 2025" loading="lazy"/>
+        <img src="../images/papers/iclr25_hand.webp" alt="ICLR 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">SiMHand: Mining Similar Hands for Large-Scale 3D Hand Pose Pre-training</h3>
@@ -879,7 +879,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/eccv24_mae.jpeg" alt="ECCV 2024" loading="lazy"/>
+        <img src="../images/papers/eccv24_mae.webp" alt="ECCV 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Masked Video and Body-worn IMU Autoencoder for Egocentric Action Recognition</h3>
@@ -898,7 +898,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/cvpr24_egoexo.jpeg" alt="CVPR 2024" loading="lazy"/>
+        <img src="../images/papers/cvpr24_egoexo.webp" alt="CVPR 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">EgoExoLearn: A Dataset for Bridging Asynchronous Ego- and Exo-centric View of Procedural Activities in Real World</h3>
@@ -917,7 +917,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/cvpr24_hand.jpeg" alt="CVPR 2024" loading="lazy"/>
+        <img src="../images/papers/cvpr24_hand.webp" alt="CVPR 2024" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Single-to-Dual-View Adaptation for Egocentric 3D Hand Pose Estimation</h3>
@@ -936,7 +936,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/cvpr23_mpi.jpeg" alt="CVPR 2023" loading="lazy"/>
+        <img src="../images/papers/cvpr23_mpi.webp" alt="CVPR 2023" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Structural Multiplane Image: Bridging Neural View Synthesis and 3D Reconstruction</h3>
@@ -955,7 +955,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/cvpr22_gaze.jpeg" alt="CVPR 2022" loading="lazy"/>
+        <img src="../images/papers/cvpr22_gaze.webp" alt="CVPR 2022" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">GazeOnce: Real-Time Multi-Person Gaze Estimation</h3>
@@ -974,7 +974,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/pami21_dark.jpeg" alt="PAMI 2021" loading="lazy"/>
+        <img src="../images/papers/pami21_dark.webp" alt="PAMI 2021" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Optical Flow in the Dark</h3>
@@ -993,7 +993,7 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
-        <img src="../images/papers/cvpr20_dark.jpeg" alt="CVPR 2020" loading="lazy"/>
+        <img src="../images/papers/cvpr20_dark.webp" alt="CVPR 2020" loading="lazy"/>
     </div>
     <div class="publication-content">
         <h3 class="publication-title">Optical Flow in the Dark</h3>
@@ -1011,15 +1011,6 @@ redirect_from:
 </div>
 
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-H5PY7PJR9Q"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-H5PY7PJR9Q');
-</script>
 
 <style>
 .publication-links a {
