@@ -839,24 +839,6 @@ redirect_from:
     </div>
 </div>
 
-<div class="publication-card">
-    <div class="publication-image">
-        <img src="../images/papers/tcsvt25_prompt.webp" alt="Arxiv 2025" loading="lazy"/>
-    </div>
-    <div class="publication-content">
-        <h3 class="publication-title">Prompt-augmented Boundary Attentive Learning for Weakly Supervised Temporal Sentence Grounding</h3>
-        <p class="publication-authors">Zhehao Zhu, Yifei Huang, <b>Mingfang Zhang</b>, Liangyang Ouyang, Yoichi Sato</p>
-        <div class="publication-bottom">
-            <div class="publication-links">
-                <!-- <a href="/publication/2025-05-01-prompt-grounding">Project Page</a> -->
-                <a href="https://ieeexplore.ieee.org/document/11015819">Paper</a>
-            </div>
-            <div class="publication-number">
-                <span class="num1">TCSVT 2025</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b1]</span></a>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="publication-card">
     <div class="publication-image">
