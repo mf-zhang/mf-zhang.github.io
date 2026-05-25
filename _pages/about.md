@@ -372,8 +372,20 @@ redirect_from:
             <img src="../images/logo/logo_woven.png" alt="Woven Logo" class="company-logo" loading="lazy"/>
             <div class="experience-content">
                 <div>
+                    <span class="company-name">Research Scientist at Woven by Toyota</span>
+                    <span class="team-name">Vision AI Platform</span>
+                </div>
+            </div>
+        </div>
+        <span class="experience-date">2026 –</span>
+    </div>
+    <div class="experience-item">
+        <div class="experience-company">
+            <img src="../images/logo/logo_woven.png" alt="Woven Logo" class="company-logo" loading="lazy"/>
+            <div class="experience-content">
+                <div>
                     <span class="company-name">Intern at Woven by Toyota</span>
-                    <span class="team-name">ML Modeling Team</span>
+                    <span class="team-name">Vision AI Platform</span>
                 </div>
             </div>
         </div>
@@ -418,33 +430,6 @@ redirect_from:
 </div>
 
 
-<div class="section-title">Services and Awards</div>
-
-<div class="awards-card">
-    <div class="award-item">
-        <span class="award-icon">•</span>
-        <span>Reviewer of CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ACMMM, BMVC</span>
-    </div>
-    <div class="award-item">
-        <span class="award-icon">•</span>
-        <span>JSPS Research Fellowship for Young Scientists DC2</span>
-        <span class="award-date">2025</span>
-    </div>
-    <div class="award-item">
-        <span class="award-icon">•</span>
-        <span>UTokyo-IIS Research Collaboration Initiative Award</span>
-        <span class="award-date">2024</span>
-    </div>
-    <div class="award-item">
-        <span class="award-icon">•</span>
-        <span>"Stars of Tomorrow" award by Microsoft Research Asia</span>
-        <span class="award-date">2023</span>
-    </div>
-    <div class="award-item">
-        <span class="award-icon">•</span>
-        <span>Contracted photographer of Visual China Group</span>
-    </div>
-</div>
 
 <div class="section-title">Publications</div>
 
