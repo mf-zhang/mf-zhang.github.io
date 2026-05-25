@@ -5,8 +5,8 @@ main:
   - title: "Publications"
     url: /tags/
 
-  - title: "CV"
-    url: /files/Mingfang_Zhang_CV.pdf
+  # - title: "CV"
+  #   url: /files/Mingfang_Zhang_CV.pdf
 
   # - title: "Teaching"
   #   url: /teaching/    
