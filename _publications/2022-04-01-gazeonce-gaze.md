@@ -6,6 +6,7 @@ venue: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/abs/2204.09480'
 codeurl: 'https://github.com/mf-zhang/GazeOnce'
 authors: 'Mingfang Zhang, Yunfei Liu, Feng Lu'
+image: 'cvpr22_gaze.webp'
 tags:
   - c) human body perception
 ---

@@ -6,7 +6,9 @@ venue: 'IEEE Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://arxiv.org/pdf/2403.04381.pdf'
 codeurl: 'https://github.com/ut-vision/S2DHand'
 authors: 'Ruicong Liu, Takehiko Ohkawa, Mingfang Zhang, Yoichi Sato'
+image: 'cvpr24_hand.webp'
 tags:
+  - b) video and multi-view understanding
   - c) human body perception
 ---
 
