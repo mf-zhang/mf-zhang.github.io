@@ -24,6 +24,7 @@
 # In[2]:
 
 import pandas as pd
+from utils import html_escape
 
 
 # ## Import TSV
@@ -43,17 +44,6 @@ publications
 # YAML is very picky about how it takes a valid string, so we are replacing single and double quotes (and ampersands) with their HTML encoded equivilents. This makes them look not so readable in raw format, but they are parsed and rendered nicely.
 
 # In[4]:
-
-html_escape_table = {
-    "&": "&amp;",
-    '"': "&quot;",
-    "'": "&apos;"
-    }
-
-def html_escape(text):
-    """Produce entities within text."""
-    return "".join(html_escape_table.get(c,c) for c in text)
-
 
 # ## Creating the markdown files
 # 

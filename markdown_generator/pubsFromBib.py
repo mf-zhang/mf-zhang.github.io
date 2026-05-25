@@ -17,6 +17,7 @@
 
 
 from pybtex.database.input import bibtex
+from utils import html_escape, html_escape_table
 import pybtex.database.input.bibtex 
 from time import strptime
 import string
@@ -42,17 +43,6 @@ publist = {
                         "permalink":"/publication/"}
     } 
 }
-
-html_escape_table = {
-    "&": "&amp;",
-    '"': "&quot;",
-    "'": "&apos;"
-    }
-
-def html_escape(text):
-    """Produce entities within text."""
-    return "".join(html_escape_table.get(c,c) for c in text)
-
 
 for pubsource in publist:
     parser = bibtex.Parser()
