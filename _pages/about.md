@@ -803,6 +803,44 @@ redirect_from:
 
 <div class="publication-card">
     <div class="publication-image">
+        <img src="../images/papers/cvpr26_cast.webp" alt="CVPR 2026" loading="lazy"/>
+    </div>
+    <div class="publication-content">
+        <h3 class="publication-title">CaST-Bench: Benchmarking Causal Chain-Grounded Spatio-Temporal Reasoning for Video Question Answering</h3>
+        <p class="publication-authors"><b>Mingfang Zhang</b>, Jingjing Pan, Ashutosh Kumar, Rajat Saini, Mustafa Erdogan, Hsuan-Kung Yang, Caixin Kang, Yifei Huang, Yoichi Sato, Quan Kong</p>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="https://cast-bench.github.io/">Project Page</a>
+                <a href="https://arxiv.org/abs/2605.23216">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">CVPR 2026</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b4]</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="publication-card">
+    <div class="publication-image">
+        <img src="../images/papers/cvpr26_social.webp" alt="CVPR 2026" loading="lazy"/>
+    </div>
+    <div class="publication-content">
+        <h3 class="publication-title">Multi-speaker Attention Alignment for Multimodal Social Interaction</h3>
+        <p class="publication-authors">Liangyang Ouyang, Yifei Huang, <b>Mingfang Zhang</b>, Caixin Kang, Ryosuke Furuta, Yoichi Sato</p>
+        <div class="publication-bottom">
+            <div class="publication-links">
+                <a href="https://github.com/ut-vision/SocialInteraction">Project Page</a>
+                <a href="https://arxiv.org/pdf/2511.17952">Paper</a>
+            </div>
+            <div class="publication-number">
+                <span class="num1">CVPR 2026</span> <a href="/tags/#b-vision-language-multimodal-models"><span class="num2 category-b">[b5]</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="publication-card">
+    <div class="publication-image">
         <img src="../images/papers/arxiv25_assist.webp" alt="Arxiv 2025" loading="lazy"/>
     </div>
     <div class="publication-content">
