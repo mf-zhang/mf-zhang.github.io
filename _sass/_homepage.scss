@@ -353,7 +353,7 @@ $hp-orange:     #c2621a;
 
 .publication-content {
   flex: 1;
-  min-width: 300px;
+  min-width: min(300px, 100%);
   margin-left: 0;
   display: flex;
   flex-direction: column;
@@ -479,14 +479,20 @@ $hp-orange:     #c2621a;
   .team-name       { font-size: 0.87em; }
   .experience-date { font-size: 0.78em; }
 
-  .publication-card { padding: 12px 12px 12px 14px; margin: 10px 0; }
+  .publication-card {
+    padding: 12px 12px 12px 14px;
+    margin: 10px 0;
+    flex-direction: column;
+  }
   .publication-image {
-    flex: 0 0 100%;
+    width: 100%;
+    flex: none;
     margin-right: 0;
     margin-bottom: 10px;
+    align-self: auto;
     img { max-width: 100%; }
   }
-  .publication-content  { gap: 8px; min-width: 0; }
+  .publication-content  { gap: 8px; min-width: 0; width: 100%; }
   .publication-title    { font-size: 1em; line-height: 1.35; }
   .publication-authors  { font-size: 0.88em; line-height: 1.45; }
   .publication-bottom   { flex-direction: row; align-items: center; gap: 8px; }
