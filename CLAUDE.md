@@ -54,7 +54,7 @@ authors: "Author1, **Mingfang Zhang**, Author3"   # bold = self
 tags:
   - "a) video and multi-view understanding"
   - "b) vision-language multimodal models"
-  - "c) human body perception"
+  - "c) human modeling"
 ```
 
 Tags use long-form strings with a letter prefix (`a)`, `b)`, `c)`). They are slugified by Liquid to produce `/tags/` anchors (e.g., `#a-video-and-multi-view-understanding`). If a tag string changes, every matching `href` anchor in `about.md` must also be updated. A publication can carry multiple tags.
